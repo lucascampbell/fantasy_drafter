@@ -1,0 +1,23 @@
+#error_explanation h2{
+  font-size:14px;
+  color:red;
+}
+
+.success_bar{
+  position:fixed;
+  top:30%;
+  left:45%;
+  display:none;
+  z-index:999999999999999999;
+}
+
+.error_bar{
+  position:fixed;
+  top:30%;
+  left:45%;
+  display:none;
+}
+
+.grey_out{
+  color: #E6E6FA;
+}

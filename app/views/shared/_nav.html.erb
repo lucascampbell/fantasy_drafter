@@ -1,0 +1,19 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+      <div class="container">
+        <div class='brand pull-left'>
+            <%= image_tag "logo.png",{:width=>'30px',:height=>'20px'}%>
+          Fantasy Tracker
+      </div>
+    </ul>
+      <ul class='nav nav-tabs pull-right'>
+      <li class='<%=@tab.nil? ? "active" : ""%>'><a href='#team' data-toggle="tab" style="padding:20px">Team</a></li>
+      <li class='<%=@tab == 'qb' ? "active" : ""%>'><a href='#qb' data-toggle="tab" style="padding:20px">QBs</a></li>
+      <li class='<%=@tab == 'rb' ? "active" : ""%>'><a href='#rb' data-toggle="tab" style="padding:20px">RBs</a></li>
+      <li class='<%=@tab == 'wr' ? "active" : ""%>'><a href='#wr' data-toggle="tab" style="padding:20px">WRs</a></li>
+      <li class='<%=@tab == 'te' ? "active" : ""%>'><a href='#te' data-toggle="tab" style="padding:20px">TEs</a></li>
+      <li class='<%=@tab == 'def' ? "active" : ""%>'><a href='#defense' data-toggle="tab" style="padding:20px">DEF</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

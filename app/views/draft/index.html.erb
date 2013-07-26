@@ -1,0 +1,35 @@
+<div class='span12' style="margin-top:100px">
+  <%#=@players.collect(&:name)%>
+    <%=form_tag('taken') do%>
+      <input id='player' name='player' type="text" data-provide="typeahead" autocomplete='off' class='input-large' data-source=['one','two'] style='margin-bottom:0'>
+      <%=submit_tag "taken",:class=>'btn btn-submit submit_player'%>
+    <%end%>
+    <div id='search_results' class='well' style='display:block'>
+    </div>
+    <div class="tab-content">
+      <%["mine","qb","rb","wr","te","defense"].each do |position| %>
+        <div class="<%=@tab == position ? 'tab-pane active' : 'tab-pane' %>" id="<%=position%>">
+          <h2><%=full_postion_name(position)%></h2>
+          <table class='table table-striped table-bordered'>
+            <tr>
+              <td>name</td>
+              <td>team</td>
+              <td>fpts</td>
+              <td>fvalue</td>
+              <td>adp</td>
+            </tr>
+            <% @players.where("position= :position or status = :position",{:position=>position}).order("fpts DESC").each do |player| %>
+              <tr id='<%=player.name.gsub(/\s+/, "")%>' class="<%=player.status.blank? ? '' : 'grey_out' %>">
+                <td><%=player.name%></td>
+                <td><%=player.team%></td>
+                <td><%=player.fpts.to_f.round(2)%></td>
+                <td><%=player.fvalue.to_f.round(2)%></td>
+                <td><%=player.adp.to_f.round(2)%></td>
+              <tr>
+            <% end %>
+          </table>
+         </div>
+      <% end %>
+    </div>
+
+</div>

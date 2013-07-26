@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FantasyTracker</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= render :partial => 'shared/nav'%>
+  <div class='container' style='width:75%;margin-top:10px'>
+    <% if notice %>
+      <div class="notice alert alert-success" style="position:absolute;top:15%;left:45%"><%= notice %></div>
+    <% end %>
+    <% if alert %>
+      <div class="alert alert-error" style="position:absolute;top:15%;left:45%"><%= alert %></div>
+    <% end %>
+    <%= render :partial => 'shared/flashes'%>
+    <div class='row-fluid'>
+      <%= yield %>
+    </div>
+  </div>
+
+</body>
+</html>
