@@ -18,6 +18,11 @@
   display:none;
 }
 
-.grey_out{
-  color: #E6E6FA;
+.grey_out_opponent{
+  color: #FF6347;
+  opacity:.5;
+}
+
+.grey_out_myteam{
+  color: #F0F8FF;
 }

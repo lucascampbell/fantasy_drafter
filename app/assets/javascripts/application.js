@@ -14,6 +14,6 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require bootstrap-tab
+//= require jquery-ui-1.10.3.custom
 //= require bootstrap-typeahead
 //= require_tree .

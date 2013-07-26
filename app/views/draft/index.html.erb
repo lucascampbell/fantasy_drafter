@@ -1,16 +1,21 @@
 <div class='span12' style="margin-top:100px">
-  <%#=@players.collect(&:name)%>
     <%=form_tag('taken') do%>
-      <input id='player' name='player' type="text" data-provide="typeahead" autocomplete='off' class='input-large' data-source=['one','two'] style='margin-bottom:0'>
-      <%=submit_tag "taken",:class=>'btn btn-submit submit_player'%>
+      <input id='player' name='player' type="text" class='input-large' style='margin-bottom:0'>
+      <%=submit_tag "my team",:class=>'btn btn-primary submit_player', :id=>"myteam_"%>
+      <%=submit_tag "opponent",:class=>'btn btn-danger submit_player',:id=>"opponent_"%>
     <%end%>
-    <div id='search_results' class='well' style='display:block'>
-    </div>
     <div class="tab-content">
-      <%["mine","qb","rb","wr","te","defense"].each do |position| %>
-        <div class="<%=@tab == position ? 'tab-pane active' : 'tab-pane' %>" id="<%=position%>">
-          <h2><%=full_postion_name(position)%></h2>
-          <table class='table table-striped table-bordered'>
+      <%["myteam","qb","rb","wr","te","defense"].each do |position| %>
+        <div class="<%=position  == 'myteam' ? 'tab-pane active' : 'tab-pane' %>" id="<%=position%>">
+          <div class='<%=position == "myteam" ? "span3" : ""%>'>
+            <h2><%=full_postion_name(position)%></h2>
+          </div>
+          <%if position == 'myteam'%>
+            <div class='offset7 span2'
+              <span><%=link_to "Clear Roster",{:action=>'clear_roster'},:class=>'btn btn-danger'%></span>
+            </div>
+          <%end%> 
+          <table class='table table-striped table-bordered' id="table_<%=position%>">
             <tr>
               <td>name</td>
               <td>team</td>
@@ -19,7 +24,7 @@
               <td>adp</td>
             </tr>
             <% @players.where("position= :position or status = :position",{:position=>position}).order("fpts DESC").each do |player| %>
-              <tr id='<%=player.name.gsub(/\s+/, "")%>' class="<%=player.status.blank? ? '' : 'grey_out' %>">
+              <tr id='<%=player.name.gsub(/\s+/, "").gsub(".","")%>' class="<%=position == 'myteam' ? '' : player.status.blank? ? '' : player.status == 'opponent' ? 'grey_out_opponent' : 'grey_out_myteam' %>">
                 <td><%=player.name%></td>
                 <td><%=player.team%></td>
                 <td><%=player.fpts.to_f.round(2)%></td>
@@ -31,5 +36,13 @@
          </div>
       <% end %>
     </div>
-
 </div>
+
+<script type='text/javascript'>
+$(function() {
+  var availableTags = <%=raw @players.collect(&:name)%>;
+    $("#player").autocomplete({
+      source: availableTags
+    });
+  })
+</script>

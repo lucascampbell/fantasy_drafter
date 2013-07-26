@@ -12,6 +12,8 @@ module DraftHelper
       "Tight Ends"
     when 'defense'
       "Defenses"
+    when 'myteam'
+      "My Team"
     end
   end
 end

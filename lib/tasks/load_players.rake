@@ -1,4 +1,5 @@
 require 'csv'
+require 'open-uri'
 namespace :load_data do
 
   task :players, [:position] => :environment do |t,args|
@@ -9,9 +10,9 @@ namespace :load_data do
     csv  = CSV.parse(file)
 
      #remove first three lines
-    csv.shift
-    csv.shift
-    csv.shift
+    3.times do
+      csv.shift
+    end
 
     case position
     when 'rb'
@@ -36,6 +37,25 @@ namespace :load_data do
       else
         player = Player.create!({:name=>name,:position=>position,:team=>raw[3],:fpts=>row[20],:fvalue =>(row[20].to_f - base_line)})
         puts "created new player #{name}"
+      end
+    end
+  end
+
+  task :adp => :environment do 
+    si   = open("http://fantasyfootballcalculator.com/adp_csv_ppr.php?teams=10")
+    csv  = CSV.parse(si.read)
+
+    5.times do
+      csv.shift
+    end
+    
+    csv.each do |row|
+      player = Player.find_by_name_and_team(row[2],row[4])
+      if player
+        player.update_attributes({:adp=>row[0]})
+        puts "updating player #{player.name}"
+      else
+        puts "player #{row} not found."
       end
     end
   end

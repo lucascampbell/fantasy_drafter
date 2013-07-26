@@ -3,22 +3,22 @@ $(function() {
  $(".submit_player").click(function(e){
    e.preventDefault();
    var id = $("#player").val();
-   $("#" + id.replace(/\s+/g, '')).attr("class","grey_out");
+   var btype = this.id.replace("_",'');
+   $("#" + id.replace(/\s+/g, '').replace(/\./g, '')).attr("class","grey_out_" + btype);
    var url = this.form.action;
-   //$("#" + )
    $.ajax({
      type: "GET",
      url: url,
-     data: {name: id}, // serializes the form's elements.
+     data: {name: id,status:btype}, // serializes the form's elements.
      success: function(data){
-        alert(data.player);
+       if(btype == "myteam")
+         $("#table_myteam").append(data.pstring);
+       $('.success_bar')[0].innerHTML = "success";
+       $('.success_bar').fadeIn(1000).delay(1000).fadeOut(2000);
      }
    });
    return false;
  });
 
-$('.typeahead').typeahead();
-
-$('#player_search').typeahead();
 });
 
