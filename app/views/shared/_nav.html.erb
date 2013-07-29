@@ -4,6 +4,15 @@
         <div class='brand pull-left'>
             <%= image_tag "logo.png",{:width=>'30px',:height=>'20px'}%>
           Fantasy Tracker
+          <span id='timer' style="padding:10px;margin-right:20px;font-size:36px">00</span>
+          <span><a id='timerbtn' class='btn btn-info' style='margin-top:0'>start</a></span>
+          <span>
+            <select id='count' style='width:50px;margin-bottom:0'> 
+              <option>60</option>
+              <option>180</option>
+              <option>300</option>
+            </select>
+          </span>
       </div>
     </ul>
       <ul class='nav nav-tabs pull-right'>
