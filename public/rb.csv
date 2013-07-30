@@ -3,110 +3,111 @@ All Running Backs NFL Standard Stats
 Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,FPTS,
 "Peterson, Adrian RB MIN ",Just Won Baby,@DET,5,0,0,0,0,0,0.0,326.3,1612.3,4.9,13.7,0,39.7,259.7,6.5,1.7,1.3,300.50
 "Charles, Jamaal RB KC ",South Central Grinder,@JAC,10,0,0,0,0,0,0.0,266.0,1437.0,5.4,7.7,0,58.0,496.7,8.6,2.3,1.7,292.60
-"Foster, Arian RB HOU ",CaMelToE,@SD,8,0,0,0,0,0,0.0,300.0,1344.0,4.5,14.3,0,45.3,329.0,7.3,2.0,2.0,291.10
-"Martin, Doug RB TB ",Massive DEZticles,@NYJ,5,0,0,0,0,0,0.0,301.3,1340.3,4.4,10.0,0,52.3,470.7,9.0,1.3,1.0,283.10
-"Rice, Ray RB BAL ",McLovin,@DEN,8,0,0,0,0,0,0.0,262.0,1182.0,4.5,8.0,0,62.3,492.0,7.9,2.0,1.7,269.90
-"Richardson, Trent RB CLE ",CaMelToE,MIA,10,0,0,0,0,0,0.0,300.3,1280.7,4.3,10.0,0,49.3,386.7,7.8,1.3,0.7,267.70
+"Foster, Arian RB HOU ",CaMelToE,@SD,8,0,0,0,0,0,0.0,300.0,1336.7,4.5,14.0,0,45.3,329.0,7.3,1.7,2.0,286.50
+"Martin, Doug RB TB ",Massive DEZticles,@NYJ,5,0,0,0,0,0,0.0,301.3,1358.3,4.5,10.3,0,52.3,470.7,9.0,1.3,1.3,285.30
+"Rice, Ray RB BAL ",McLovin,@DEN,8,0,0,0,0,0,0.0,262.0,1182.0,4.5,8.0,0,64.7,515.3,8.0,2.0,1.7,275.30
+"Richardson, Trent RB CLE ",CaMelToE,MIA,10,0,0,0,0,0,0.0,300.3,1280.7,4.3,10.3,0,49.3,390.3,7.9,1.3,0.7,269.50
 "McCoy, LeSean RB PHI ",Massive DEZticles,@WAS,12,0,0,0,0,0,0.0,268.0,1270.7,4.7,9.0,0,53.7,386.0,7.2,2.3,2.0,267.50
-"Spiller, C.J. RB BUF",Bukkake Bandits,NE,12,0,0,0,0,0,0.0,259.3,1382.3,5.3,8.0,0,41.0,346.3,8.4,2.7,2.0,258.20
-"Forte, Matt RB CHI ",Freak'n Champions,CIN,8,0,0,0,0,0,0.0,255.3,1150.3,4.5,5.7,0,59.0,470.0,8.0,3.0,2.0,253.20
-"Lynch, Marshawn RB SEA ",McLovin,@CAR,12,0,0,0,0,0,0.0,298.0,1428.0,4.8,12.3,0,24.7,195.3,7.9,1.0,1.7,248.10
+"Spiller, C.J. RB BUF",Bukkake Bandits,NE,12,0,0,0,0,0,0.0,259.3,1382.3,5.3,8.3,0,41.0,346.3,8.4,2.7,2.0,260
+"Forte, Matt RB CHI ",Freak'n Ricans,CIN,8,0,0,0,0,0,0.0,255.3,1150.3,4.5,5.3,0,59.0,470.0,8.0,3.0,2.0,250.80
+"Lynch, Marshawn RB SEA ",McLovin,@CAR,12,0,0,0,0,0,0.0,302.3,1432.7,4.7,12.3,0,26.0,195.3,7.5,1.0,1.7,249.40
 "Bush, Reggie RB DET ",Cabo Clap,MIN,9,0,0,0,0,0,0.0,210.3,959.7,4.6,4.7,0,70.7,555.0,7.9,2.7,1.7,245.70
-"Jackson, Steven RB ATL ",Freak'n Champions,@NO,6,0,0,0,0,0,0.0,255.0,1147.3,4.5,9.3,0,42.0,335.0,8.0,0.7,1.0,232
-"Sproles, Darren RB NO ",Just Won Baby,ATL,7,0,0,0,0,0,0.0,75.7,415.7,5.5,2.7,0,77.7,710.7,9.1,7.0,1.0,229.90
-"Johnson, Chris RB TEN ",Freak'n Champions,@PIT,8,0,0,0,0,0,0.0,271.0,1293.0,4.8,6.3,0,39.0,291.3,7.5,1.0,1.7,221.40
-"Jones-Drew, Maurice RB JAC ",Bukkake Bandits,KC,9,0,0,0,0,0,0.0,280.3,1207.0,4.3,6.3,0,38.0,298.0,7.8,1.7,2.0,216
+"Jackson, Steven RB ATL ",Freak'n Ricans,@NO,6,0,0,0,0,0,0.0,255.0,1147.3,4.5,9.3,0,42.0,335.0,8.0,0.7,1.0,232
+"Sproles, Darren RB NO ",Just Won Baby,ATL,7,0,0,0,0,0,0.0,75.7,415.7,5.5,2.7,0,77.3,710.7,9.2,7.0,1.0,229.50
+"Johnson, Chris RB TEN ",Freak'n Ricans,@PIT,8,0,0,0,0,0,0.0,271.0,1293.0,4.8,6.3,0,39.0,291.3,7.5,1.0,1.7,221.40
+"Jones-Drew, Maurice RB JAC ",Bukkake Bandits,KC,9,0,0,0,0,0,0.0,280.3,1207.0,4.3,6.3,0,38.0,298.0,7.8,1.3,2.0,213.60
 "Murray, DeMarco RB DAL ",Massive DEZticles,NYG,11,0,0,0,0,0,0.0,244.7,1114.7,4.6,7.3,0,38.7,312.0,8.1,1.0,1.0,212.50
 "Morris, Alfred RB WAS ",Massive DEZticles,PHI,5,0,0,0,0,0,0.0,313.3,1423.7,4.5,10.7,0,14.3,79.7,5.6,0.3,2.3,211.70
 "Miller, Lamar RB MIA ",Free Agent,@CLE,6,0,0,0,0,0,0.0,232.7,1115.7,4.8,6.3,0,35.0,295.0,8.4,1.3,1.0,202.60
 "McFadden, Darren RB OAK ",DOUBLE PENETRATION,@IND,7,0,0,0,0,0,0.0,228.7,1049.7,4.6,5.7,0,39.0,310.3,8.0,1.3,2.0,197
-"Ridley, Stevan RB NE",Massive DEZticles,@BUF,10,0,0,0,0,0,0.0,268.0,1223.3,4.6,11.7,0,8.7,71.7,8.2,0,2.0,191.90
+"Ridley, Stevan RB NE ",Massive DEZticles,@BUF,10,0,0,0,0,0,0.0,274.7,1245.7,4.5,11.7,0,8.7,71.7,8.2,0,2.0,193.90
 "Gore, Frank RB SF ",Bukkake Bandits,GB,9,0,0,0,0,0,0.0,249.0,1120.7,4.5,7.3,0,25.3,218.0,8.6,1.0,1.3,191.50
 "Wilson, David RB NYG ",Cabo Clap,@DAL,9,0,0,0,0,0,0.0,227.3,1115.7,4.9,6.0,0,26.3,236.7,9.0,1.7,1.0,188.50
 "Vereen, Shane RB NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,137.3,619.3,4.5,4.3,0,49.3,443.3,9.0,2.7,0.3,179.70
 "Bell, Le'Veon RB PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,250.3,1055.7,4.2,6.3,0,24.7,167.3,6.8,0.7,1.7,169.30
+"Bernard, Giovani RB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,179.3,852.3,4.8,4.0,0,38.0,317.3,8.3,1.3,1.3,168.20
 "Ball, Montee RB DEN ",Free Agent,BAL,9,0,0,0,0,0,0.0,225.3,985.0,4.4,7.3,0,22.0,168.0,7.6,0.3,1.7,164.20
-"Bernard, Giovani RB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,179.3,826.3,4.6,4.0,0,37.3,306.7,8.2,1.3,1.7,163.70
-"Bradshaw, Ahmad RB IND ",Just Won Baby,OAK,8,0,0,0,0,0,0.0,194.7,882.7,4.5,6.0,0,25.7,200.3,7.8,1.0,0,160.70
-"Ivory, Chris RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,256.0,1121.0,4.4,6.7,0,11.0,82.7,7.5,0,1.7,156.80
-"Mathews, Ryan RB SD ",The Pluggers,HOU,8,0,0,0,0,0,0.0,206.0,881.7,4.3,5.0,0,30.0,217.0,7.2,0.7,2.0,155.20
-"Mendenhall, Rashard RB ARI ",Freak'n Champions,@STL,9,0,0,0,0,0,0.0,228.7,931.3,4.1,6.3,0,21.7,170.7,7.9,0.3,0.7,153.90
-"Stewart, Jonathan RB CAR ",The Pluggers,SEA,4,0,0,0,0,0,0.0,175.0,807.0,4.6,5.0,0,26.7,224.0,8.4,1.0,1.3,148.10
-"Brown, Andre RB NYG ",Free Agent,@DAL,9,0,0,0,0,0,0.0,166.7,738.7,4.4,8.3,0,22.7,165.3,7.3,0.3,1.0,147.30
-"Lacy, Eddie RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,201.0,875.3,4.4,6.3,0,20.3,147.0,7.2,0.7,1.0,146.30
+"Bradshaw, Ahmad RB IND ",Just Won Baby,OAK,8,0,0,0,0,0,0.0,194.7,882.7,4.5,6.0,0,25.7,200.3,7.8,1.0,0.7,159.30
+"Ivory, Chris RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,256.0,1121.0,4.4,7.0,0,11.0,82.7,7.5,0,1.7,158.60
+"Mathews, Ryan RB SD ",The Pluggers,HOU,8,0,0,0,0,0,0.0,206.0,881.7,4.3,5.0,0,30.0,221.0,7.4,0.7,2.0,155.20
+"Mendenhall, Rashard RB ARI ",Freak'n Ricans,@STL,9,0,0,0,0,0,0.0,228.7,931.3,4.1,6.3,0,21.7,170.7,7.9,0.3,1.3,152.70
+"Brown, Andre RB NYG ",Free Agent,@DAL,9,0,0,0,0,0,0.0,166.7,738.7,4.4,8.3,0,22.7,165.3,7.3,0.3,1.3,146.70
+"Hillman, Ronnie RB DEN ",Just Won Baby,BAL,9,0,0,0,0,0,0.0,136.0,625.3,4.6,4.0,0,33.3,275.0,8.3,1.3,1.0,138.10
+"Stewart, Jonathan RB CAR ",The Pluggers,SEA,4,0,0,0,0,0,0.0,171.7,759.0,4.4,4.3,0,25.3,215.7,8.5,1.0,1.7,135.70
+"Thomas, Pierre RB NO ",McLovin,ATL,7,0,0,0,0,0,0.0,137.0,597.3,4.4,4.0,0,34.7,301.3,8.7,1.0,1.3,135.10
 "Woodhead, Danny RB SD ",Free Agent,HOU,8,0,0,0,0,0,0.0,101.7,442.3,4.3,3.0,0,41.7,348.3,8.4,2.0,0.3,134.10
-"Thomas, Pierre RB NO ",McLovin,ATL,7,0,0,0,0,0,0.0,137.0,597.3,4.4,3.7,0,34.7,294.7,8.5,1.0,1.3,133.30
-"Jackson, Fred RB BUF ",Free Agent,NE,12,0,0,0,0,0,0.0,138.7,602.7,4.3,4.7,0,27.0,182.3,6.8,0.7,1.3,119.80
-"Green-Ellis, BenJarvus RB CIN ",South Central Grinder,@CHI,12,0,0,0,0,0,0.0,176.7,745.7,4.2,6.7,0,11.0,71.0,6.5,0,0.7,118.80
+"Lacy, Eddie RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,181.0,798.0,4.4,6.0,0,20.3,147.0,7.2,0.3,1.7,132.70
+"Richardson, Daryl RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,134.3,617.0,4.6,3.7,0,29.7,223.3,7.5,1.3,1.0,124.70
+"Jackson, Fred RB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,138.7,592.0,4.3,4.7,0,27.0,182.3,6.8,0.7,1.3,119.80
 "Brown, Bryce RB PHI ",Massive DEZticles,@WAS,12,0,0,0,0,0,0.0,160.0,712.0,4.5,5.0,0,20.0,131.0,6.5,0.7,2.7,117.80
-"Hillman, Ronnie RB DEN ",Just Won Baby,BAL,9,0,0,0,0,0,0.0,132.7,586.3,4.4,3.3,0,28.3,199.7,7.1,1.3,1.0,115.90
+"Green-Ellis, BenJarvus RB CIN ",South Central Grinder,@CHI,12,0,0,0,0,0,0.0,168.7,715.3,4.2,6.7,0,11.0,71.0,6.5,0,1.0,115.20
+"Pierce, Bernard RB BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,159.0,752.3,4.7,4.0,0,15.3,102.3,6.7,0.7,0.7,114.10
 "Rodgers, Jacquizz RB ATL ",Free Agent,@NO,6,0,0,0,0,0,0.0,95.0,415.0,4.4,0.7,0,43.3,350.0,8.1,1.3,0.7,113.90
-"Pead, Isaiah RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,168.0,770.3,4.6,3.7,0,18.0,122.0,6.8,0.3,1.3,113.40
+"Franklin, Johnathan RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,126.7,569.7,4.5,3.0,0,25.7,194.3,7.6,1.3,0.3,111.90
+"Pead, Isaiah RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,161.3,738.3,4.6,3.7,0,18.0,122.0,6.8,0.3,1.3,110.40
 "Ingram, Mark RB NO ",Free Agent,ATL,7,0,0,0,0,0,0.0,169.0,716.0,4.2,6.7,0,7.3,37.7,5.2,0,0.7,110.10
-"Pierce, Bernard RB BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,157.0,742.7,4.7,4.0,0,13.0,88.3,6.8,0.7,0.7,109.80
+"Williams, DeAngelo RB CAR ",Just Won Baby,SEA,4,0,0,0,0,0,0.0,148.0,677.7,4.6,4.3,0,16.3,121.7,7.5,0.7,1.0,109.30
 "Ballard, Vick RB IND ",Cabo Clap,OAK,8,0,0,0,0,0,0.0,134.0,565.0,4.2,3.7,0,22.0,177.3,8.1,1.0,0.7,108.80
-"Stacy, Zac RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,168.0,735.7,4.4,4.3,0,12.0,91.7,7.6,0,0.7,105.40
-"Tate, Ben RB HOU ",Free Agent,@SD,8,0,0,0,0,0,0.0,136.0,669.0,4.9,4.7,0,14.7,101.0,6.9,0.3,1.3,105.10
-"Leshoure, Mikel RB DET ",Cabo Clap,MIN,9,0,0,0,0,0,0.0,137.7,585.0,4.2,6.7,0,12.3,90.3,7.3,0,2.0,102.50
-"Williams, DeAngelo RB CAR ",Just Won Baby,SEA,4,0,0,0,0,0,0.0,141.3,637.7,4.5,4.0,0,15.0,113.3,7.6,0.7,1.0,101.20
-"Richardson, Daryl RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,101.7,482.7,4.7,2.3,0,27.0,189.7,7.0,1.3,0.7,99.20
-"Franklin, Johnathan RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,118.3,525.7,4.4,2.3,0,24.7,178.0,7.2,0.7,0.3,97.10
-"Tolbert, Mike RB CAR ",Free Agent,SEA,4,0,0,0,0,0,0.0,69.0,277.3,4.0,5.7,0,27.0,230.0,8.5,0.3,0.7,96.60
-"Reece, Marcel RB OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,56.3,249.0,4.4,1.0,0,37.7,303.7,8.1,2.7,0.7,96.50
-"Greene, Shonn RB TEN",CaMelToE,@PIT,8,0,0,0,0,0,0.0,132.7,546.0,4.1,5.7,0,10.7,80.3,7.5,0,1.7,92.50
-"Goodson, Mike RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,101.3,453.0,4.5,2.0,0,26.7,187.3,7.0,1.3,1.7,91.10
+"Tate, Ben RB HOU ",Free Agent,@SD,8,0,0,0,0,0,0.0,136.0,669.0,4.9,5.0,0,14.7,101.0,6.9,0.3,1.3,106.90
+"Stacy, Zac RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,157.0,693.0,4.4,4.7,0,12.0,91.7,7.6,0,0,106.20
+"Leshoure, Mikel RB DET ",Cabo Clap,MIN,9,0,0,0,0,0,0.0,129.3,548.3,4.2,6.3,0,12.3,90.3,7.3,0,2.0,97.10
+"Tolbert, Mike RB CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,69.0,277.3,4.0,5.7,0,27.0,230.0,8.5,0.3,1.0,96
+"Reece, Marcel RB OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,56.3,249.0,4.4,1.0,0,37.7,303.7,8.1,2.3,0.7,94.10
+"Greene, Shonn RB TEN ",CaMelToE,@PIT,8,0,0,0,0,0,0.0,128.0,535.0,4.2,5.3,0,10.7,80.3,7.5,0,0.7,91.10
 "Randle, Joseph RB DAL ",Free Agent,NYG,11,0,0,0,0,0,0.0,98.0,432.7,4.4,2.7,0,21.7,183.7,8.5,1.0,0.3,90.30
 "Bush, Michael RB CHI ",South Central Grinder,CIN,8,0,0,0,0,0,0.0,110.7,435.7,3.9,5.7,0,11.0,83.3,7.6,0,0.7,83.80
+"Goodson, Mike RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,84.7,385.7,4.6,1.3,0,26.7,187.3,7.0,1.0,1.0,80.50
 "James, LaMichael RB SF",Free Agent,GB,9,0,0,0,0,0,0.0,98.7,495.0,5.0,2.3,0,16.7,129.7,7.8,0.7,1.0,79.70
 "Stephens-Howling, LaRod RB PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,66.3,263.0,4.0,1.3,0,25.3,213.3,8.4,2.0,0.3,76.50
+"Bell, Joique RB DET ",DOUBLE PENETRATION,MIN,9,0,0,0,0,0,0.0,73.3,323.7,4.4,2.7,0,23.0,177.7,7.7,0.3,0.3,76.40
 "Hunter, Kendall RB SF ",Free Agent,GB,9,0,0,0,0,0,0.0,99.3,451.7,4.5,2.7,0,14.3,114.7,8.0,0.3,0.3,73.70
 "Robinson, Denard RB JAC ",Free Agent,KC,9,5.0,2.7,31.3,0.7,0.3,87.8,59.0,297.0,5.0,1.3,0,22.0,211.0,9.6,0.7,1.0,71.20
 "Davis, Knile RB KC ",Free Agent,@JAC,10,0,0,0,0,0,0.0,93.7,422.3,4.5,2.3,0,16.0,128.7,8.0,0.3,1.0,69.60
-"Turbin, Robert RB SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,90.7,400.0,4.4,1.7,0,15.7,128.7,8.2,0.7,0,69.10
-"Jennings, Rashad RB OAK ",The Pluggers,@IND,7,0,0,0,0,0,0.0,90.0,391.3,4.3,1.7,0,17.7,125.7,7.1,0.3,0,65.70
+"Powell, Bilal RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,86.3,390.0,4.5,2.0,0,14.3,112.0,7.8,0.7,0.3,65.90
+"Turbin, Robert RB SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,83.3,374.0,4.5,1.3,0,15.7,128.7,8.2,0.7,0.3,63.10
+"Williams, Ryan RB ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,105.7,457.7,4.3,2.0,0,11.7,75.3,6.4,0,1.3,61.10
+"Jennings, Rashad RB OAK ",The Pluggers,@IND,7,0,0,0,0,0,0.0,86.7,378.0,4.4,1.7,0,16.0,120.3,7.5,0,0.3,60.60
 "Gillislee, Mike RB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,84.7,384.3,4.5,2.0,0,14.3,105.7,7.4,0,0.7,59.90
-"Williams, Ryan RB ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,105.7,457.7,4.3,2.0,0,10.3,66.7,6.5,0,1.3,59.70
-"Bell, Joique RB DET ",DOUBLE PENETRATION,MIN,9,0,0,0,0,0,0.0,54.0,254.3,4.7,1.3,0,23.0,177.7,7.7,0.3,0.7,59.20
-"Helu, Roy RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,51.7,218.7,4.2,0.7,0,27.3,204.3,7.5,0.3,1.0,57.30
+"Helu, Roy RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,51.7,218.7,4.2,0.7,0,27.3,204.3,7.5,0.3,0.7,57.90
 "Moreno, Knowshon RB DEN ",CaMelToE,BAL,9,0,0,0,0,0,0.0,69.7,302.0,4.3,2.3,0,15.7,124.3,7.9,0.7,1.3,57.10
 "Gerhart, Toby RB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,69.7,294.3,4.2,2.3,0,16.3,143.0,8.8,0.3,1.3,56.30
-"Powell, Bilal RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,66.3,304.0,4.6,1.3,0,14.3,112.0,7.8,0.7,0,54.30
+"Michael, Christine RB SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,71.3,339.0,4.8,2.3,0,9.7,82.3,8.5,0,0,54.50
 "Thomas, Daniel RB MIA ",Free Agent,@CLE,6,0,0,0,0,0,0.0,74.7,292.3,3.9,2.3,0,12.3,95.7,7.8,0,1.3,48.50
 "Forsett, Justin RB JAC ",Free Agent,KC,9,0,0,0,0,0,0.0,66.3,308.3,4.7,0.7,0,15.3,109.3,7.1,0.3,0,48.30
-"Harris, DuJuan RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,61.3,285.7,4.7,1.3,0,12.0,100.3,8.4,0.3,0.3,45
 "Kuhn, John RB GB",Free Agent,@SF,4,0,0,0,0,0,0.0,31.7,110.7,3.5,2.0,0,15.3,109.7,7.2,1.7,0.3,44.90
-"Royster, Evan RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,57.3,267.3,4.7,1.0,0,11.7,85.3,7.3,0.7,0,43.90
-"Michael, Christine RB SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,51.3,246.3,4.8,2.0,0,9.7,82.3,8.5,0,0,42.70
+"Harris, DuJuan RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,61.3,285.7,4.7,1.3,0,12.0,100.3,8.4,0.3,0.7,44.20
+"Royster, Evan RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,57.3,267.3,4.7,1.0,0,11.7,85.3,7.3,0.7,0,43.90
+"Murray, Latavius RB OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,54.7,247.7,4.5,1.7,0,11.0,91.0,8.3,0.3,0.3,43.40
 "Hardesty, Montario RB CLE ",Free Agent,MIA,10,0,0,0,0,0,0.0,77.0,319.0,4.1,1.0,0,8.7,73.3,8.4,0.3,0,42.50
 "Leonard, Brian RB TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,42.7,184.0,4.3,0.7,0,20.0,145.7,7.3,0,0,42.20
 "Brown, Donald RB IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,65.0,268.7,4.1,1.0,0,12.3,99.0,8.0,0.3,0.3,41.50
 "Dwyer, Jonathan RB PIT ",DOUBLE PENETRATION,TEN,5,0,0,0,0,0,0.0,82.0,343.3,4.2,1.3,0,7.0,49.3,7.0,0,1.3,41.20
-"Brown, Ronnie RB SD",Free Agent,HOU,8,0.3,0,0,0,0,39.6,54.7,222.7,4.1,0.7,0,18.0,142.7,7.9,0,0.7,40.80
+"Brown, Ronnie RB SD ",Free Agent,HOU,8,0.3,0,0,0,0,39.6,54.7,222.7,4.1,0.7,0,18.0,142.7,7.9,0,0.7,40.80
 "Snelling, Jason RB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,28.0,124.0,4.4,0.7,0,19.0,154.0,8.1,1.0,0.3,40.60
 "Taylor, Stepfan RB ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,66.7,286.0,4.3,1.0,0,11.3,79.0,7.0,0,0,40.30
-"Redman, Isaac RB PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,48.0,209.3,4.4,1.0,0,13.3,105.3,7.9,0,0.7,35.90
-"Carter, Delone RB IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,48.3,189.3,3.9,3.3,0,3.3,18.3,5.5,0,0,35.10
+"Redman, Isaac RB PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,48.0,209.3,4.4,1.0,0,13.3,105.3,7.9,0,1.0,35.30
+"Carter, Delone RB IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,48.3,192.7,4.0,2.7,0,3.3,18.3,5.5,0,0,32.50
 "Ellington, Andre RB ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,41.3,203.3,4.9,0.3,0,12.7,101.0,8.0,0.3,0,32.30
 "Washington, Leon RB NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,25.3,126.0,5.0,1.0,0,16.0,115.0,7.2,0,0.3,31.40
 "Leach, Vonta RB BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,13.0,43.0,3.3,1.3,0,14.0,92.7,6.6,0,0,26.80
 "Allen, Armando RB CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,38.3,160.3,4.2,0.7,0,8.7,80.0,9.2,0,0,25.90
 "Lane, Jorvorskie RB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,19.0,61.7,3.2,1.7,0,8.3,58.0,7.0,0.7,0.7,25.30
 "Draughn, Shaun RB KC ",Free Agent,@JAC,10,0,0,0,0,0,0.0,42.7,187.7,4.4,1.0,0,6.7,51.7,7.7,0,0.3,25.10
-"Blount, LeGarrette RB NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,48.0,194.3,4.0,1.7,0,2.7,14.3,5.3,0,0.3,24.30
+"Blount, LeGarrette RB NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,48.0,194.3,4.0,1.7,0,2.7,14.3,5.3,0,0.3,24.30
 "Ogbonnaya, Chris RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,32.0,143.0,4.5,0,0,12.7,114.7,9.0,0.3,0.7,24.10
-"Murray, Latavius RB OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,47.7,197.0,4.1,1.0,0,5.0,44.3,8.9,0,0,24
+"Barner, Kenjon RB CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,43.7,216.0,4.9,0.7,0,5.0,40.7,8.1,0,0.3,23.60
 "Collins, Jed RB NO",Free Agent,ATL,7,0,0,0,0,0,0.0,2.0,4.3,2.1,0.7,0,9.0,49.3,5.5,1.3,0,23
-"Powell, William RB ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,24.0,102.0,4.2,0,0,13.0,99.0,7.6,0,0,21
 "James, Mike RB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,33.7,147.3,4.4,0.7,0,6.0,49.3,8.2,0.3,0.3,20.40
+"Powell, William RB PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,20.7,88.7,4.3,0,0,11.7,90.3,7.7,0,0,19.70
 "Bolden, Brandon RB NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,37.3,165.7,4.4,1.0,0,2.7,25.3,9.4,0,0,18.70
 "Jones, Greg B. RB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,7.3,23.7,3.2,0.3,0,10.7,71.7,6.7,0.3,0,18.30
 "Robinson, Michael RB SEA",Free Agent,@CAR,12,0,0,3.0,0,0,0.0,8.0,30.3,3.8,0.3,0,7.3,52.3,7.2,0.7,0,17.30
-"Lewis, Dion RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,20.7,90.0,4.3,0.3,0,8.3,70.3,8.5,0,0,17.10
+"Lewis, Dion RB CLE ",Free Agent,MIA,10,0,0,0,0,0,0.0,20.7,90.0,4.3,0.3,0,8.3,70.3,8.5,0,0,17.10
 "Green, Alex RB GB ",Cabo Clap,@SF,4,0,0,0,0,0,0.0,38.7,156.3,4.0,0.3,0,6.0,41.7,7.0,0.3,0.3,17
 "Tanner, Phillip RB DAL ",Free Agent,NYG,11,0,0,0,0,0,0.0,43.7,173.7,4.0,0.3,0,5.0,45.3,9.1,0,0,16.80
 "Johnson, Will RB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,3.7,13.7,3.7,0.3,0,7.7,66.0,8.6,0.7,0,16.70
 "Dunbar, Lance RB DAL ",Free Agent,NYG,11,0,0,0,0,0,0.0,27.3,116.0,4.2,0.7,0,7.0,47.3,6.8,0,0.3,16.60
-"Barner, Kenjon RB CAR ",Free Agent,SEA,4,0,0,0,0,0,0.0,37.0,182.7,4.9,0.3,0,3.0,22.3,7.4,0,0.3,16.20
+"Charles, Orson RB CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,8.7,101.0,11.6,0.3,0,14.50
 "Peerman, Cedric RB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,26.0,124.0,4.8,0.3,0,4.3,33.3,7.7,0.3,0,13.90
 "McKnight, Joe RB NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,18.0,76.0,4.2,0.3,0,7.7,74.3,9.6,0,1.0,13.50
 "Scott, Bernard RB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,18.7,85.0,4.5,0.3,0,5.3,44.3,8.4,0.3,0.3,13.30
@@ -114,32 +115,30 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Hester, Jacob RB DEN ",Free Agent,BAL,9,0,0,0,0,0,0.0,14.0,62.3,4.5,0.3,0,6.3,45.3,7.2,0.3,0,12.90
 "Dixon, Anthony RB SF",Free Agent,GB,9,0,0,0,0,0,0.0,18.3,71.0,3.9,1.3,0,1.7,10.7,6.3,0,0,12.50
 "Owens, Montell RB DET ",Free Agent,MIN,9,0,0,0,0,0,0.0,13.0,60.7,4.7,0.3,0,5.3,34.3,6.5,0.3,0.3,11.30
-"Rodriguez, Evan RB MIA ",Free Agent,@CLE,6,0,0,0,0,0,0.0,4.7,19.7,4.2,0,0,7.0,68.3,9.8,0,0,11
-"Starks, James RB GB",Free Agent,@SF,4,0,0,0,0,0,0.0,19.0,88.7,4.7,0.3,0,2.3,19.3,8.4,0.3,0,10.90
-"McGahee, Willis RB DEN ",The Pluggers,BAL,9,0,0,0,0,0,0.0,25.7,110.7,4.3,0.7,0,2.7,15.7,5.8,0,0,10.90
+"Rodriguez, Evan RB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,4.7,19.7,4.2,0,0,7.0,68.3,9.8,0,0,11
+"Starks, James RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,19.0,88.7,4.7,0.3,0,2.3,19.3,8.4,0.3,0,10.90
 "Ball, Lance RB DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,18.0,74.3,4.1,0.3,0,3.7,30.7,8.3,0.3,0.3,10.70
 "Havili, Stanley RB IND",Free Agent,OAK,8,0,0,0,0,0,0.0,3.0,12.3,4.1,0.7,0,5.0,31.7,6.3,0,0,10.20
 "Torain, Ryan RB NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,15.7,66.7,4.2,0.3,0,3.7,22.3,6.0,0,0,9.50
 "Felton, Jerome RB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,7.0,24.3,3.5,0.3,0,5.7,41.7,7.3,0,0,9.50
-"Hillis, Peyton RB KC ",Free Agent,@JAC,10,0,0,0,0,0,0.0,21.0,79.3,3.8,0.7,0,2.0,10.7,5.3,0,0,9.20
+"Hillis, Peyton RB TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,21.0,79.3,3.8,0.7,0,2.0,10.7,5.3,0,0,9.20
 "Choice, Tashard RB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,27.0,110.3,4.1,0.3,0,3.7,24.0,6.5,0,0.7,9.10
 "McClain, Le'Ron RB SD",Free Agent,HOU,8,0,0,0,0,0,0.0,13.3,47.0,3.5,0.3,0,5.3,29.3,5.5,0,0,9.10
-"Williams, Keiland RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,10.7,44.3,4.1,0.3,0,3.7,32.7,8.8,0.3,0.3,8.70
-"Benson, Cedric RB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,21.7,83.7,3.9,0.3,0,3.0,20.0,6.7,0,0.7,8.40
+"Williams, Keiland RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,10.7,44.3,4.1,0.3,0,3.7,32.7,8.8,0.3,0.3,8.70
+"Benson, Cedric RB GB",Free Agent,@SF,4,0,0,0,0,0,0.0,21.7,83.7,3.9,0.3,0,3.0,20.0,6.7,0,0.7,8.40
 "Young, Darrel RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,9.7,41.0,4.2,0.3,0,3.7,33.0,8.9,0,0,7.50
 "Polk, Chris RB PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,21.0,93.3,4.4,0.3,0,1.7,11.3,6.6,0,0,7.50
-"D'Imperio, Ryan RB KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,4.0,15.7,3.9,0,0,5.3,48.7,9.2,0,0,7.30
+"D'Imperio, Ryan RB NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,4.0,15.7,3.9,0,0,5.3,48.7,9.2,0,0,7.30
 "Dickerson, Dorin RB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,1.0,4.7,4.7,0,0,5.3,52.7,9.9,0,0,7.30
 "Scott, Da'Rel RB NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,14.7,62.0,4.2,0.3,0,2.3,17.7,7.7,0,0,7.10
 "Miller, Bruce RB SF",Free Agent,GB,9,0,0,0,0,0,0.0,3.3,12.7,3.8,0,0,6.0,42.3,7.0,0,0,7
-"Turner, Michael RB ATL ",DOUBLE PENETRATION,@NO,6,0,0,0,0,0,0.0,15.0,56.7,3.8,0.7,0,1.3,9.0,6.9,0,0.3,6.90
-"Stewart, Jeremy RB OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,11.7,50.0,4.3,0,0,3.7,28.0,7.6,0,0,6.70
+"McGahee, Willis RB DEN",The Pluggers,BAL,9,0,0,0,0,0,0.0,25.7,110.7,4.3,0,0,2.7,15.7,5.8,0,0,6.70
 "Ware, D.J. RB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,5.0,25.3,5.1,0,0,4.7,44.0,9.4,0,0,6.70
 "Harper, Jamie RB TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,7.3,33.0,4.5,0.7,0,1.0,7.3,7.3,0,0,6.20
 "Jones, Felix RB PHI ",McLovin,@WAS,12,0,0,0,0,0,0.0,17.0,69.3,4.1,0.3,0,1.3,7.3,5.6,0,0,6.10
 "Allen, Anthony RB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,15.0,64.0,4.3,0.3,0,1.3,10.7,8.2,0,0,6.10
-"Wells, Beanie RB ARI",CaMelToE,@STL,9,0,0,0,0,0,0.0,17.0,72.3,4.3,0.3,0,1.7,10.0,5.9,0,0.3,5.90
-"Ganaway, Terrance RB STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,12.0,54.3,4.5,0.3,0,2.0,13.7,6.8,0,0,5.80
+"Ganaway, Terrance RB STL",Free Agent,ARI,11,0,0,0,0,0,0.0,12.0,54.3,4.5,0.3,0,2.0,13.7,6.8,0,0,5.80
+"Stewart, Jeremy RB OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,8.3,36.3,4.4,0,0,3.7,28.0,7.6,0,0,5.70
 "Batch, Baron RB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,10.3,49.7,4.8,0.3,0,1.7,10.3,6.1,0,0,5.50
 "Gray, Cyrus RB KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,9.0,49.3,5.5,0.3,0,1.7,14.7,8.6,0,0,5.50
 "Johnson, Quinn RB TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,3.7,12.3,3.3,0,0,4.0,32.0,8.0,0,0,5
@@ -149,14 +148,14 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Reynaud, Darius RB TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,1.3,6.3,4.8,0,0,3.3,33.3,10.1,0,0,4.30
 "Pressley, Chris RB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,3.7,14.3,3.9,0.3,0,2.0,13.0,6.5,0,0,3.80
 "Johnson, David RB PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,2.7,21.3,7.9,0,0,3.70
-"Thompson, Chris RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,7.7,35.0,4.5,0,0,2.3,14.7,6.4,0,0,3.30
+"Thompson, Chris RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,7.7,35.0,4.5,0,0,2.3,14.7,6.4,0,0,3.30
 "Bohanon, Tommy RB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0.7,2.7,3.9,0,0,2.3,22.3,9.7,0,0,3.30
 "Smith, Michael RB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,12.3,51.7,4.2,0,0,1.0,6.0,6.0,0,0,3
 "Burkhead, Rex RB CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,8.0,32.7,4.1,0.3,0,0,0,0.0,0,0,2.80
 "Ewing, Bradie RB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,2.7,9.0,3.3,0,0,2.3,15.3,6.7,0,0,2.30
 "Lorig, Erik RB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,2.7,10.3,3.8,0,0,2.3,12.7,5.5,0,0,2.30
 "Marecic, Owen RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,2.7,11.7,4.3,0,0,2.0,12.0,6.0,0,0,2
-"Davis, Tristan RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,5.0,21.7,4.3,0,0,1.0,9.0,9.0,0,0,2
+"Davis, Tristan RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,5.0,21.7,4.3,0,0,1.0,9.0,9.0,0,0,2
 "Griffin, John RB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,1.3,6.3,4.8,0,0,1.7,14.3,8.4,0,0,1.70
 "Cadet, Travaris RB NO",Free Agent,ATL,7,0,0,0,0,0,0.0,3.0,11.7,3.9,0,0,1.7,15.0,8.8,0,0,1.70
 "Ta'ufo'ou, Will RB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,1.0,2.7,2.7,0,0,1.7,7.3,4.3,0,0,1.70
@@ -164,7 +163,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Clutts, Tyler RB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,1.3,10.3,7.9,0,0,1.30
 "Williams, Kerwynn RB IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,7.3,35.3,4.8,0,0,0,0,0.0,0,0,1
 "Gronkowski, Chris RB SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0.7,2.0,2.9,0,0,1.0,5.0,5.0,0,0,1
-"Fiammetta, Tony RB CHI ",Free Agent,CIN,8,0,0,0,0,0,0.0,1.3,6.3,4.8,0,0,1.0,8.0,8.0,0,0,1
+"Fiammetta, Tony RB CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,1.3,6.3,4.8,0,0,1.0,8.0,8.0,0,0,1
 "Herron, Dan RB CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,11.0,41.0,3.7,0,0,0,0,0.0,0,0,1
 "Parmele, Jalen RB TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,8.0,29.0,3.6,0,0,0,0,0.0,0,0,1
 "Chapas, Shaun RB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,2.0,8.3,4.2,0,0,1.0,7.0,7.0,0,0,1
@@ -175,7 +174,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "McIntyre, Corey RB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0.3,0.7,2.3,0,0,0.7,5.0,7.1,0,0,0.70
 "Asiata, Matt RB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,1.0,3.0,3.0,0,0,0.3,0.7,2.3,0,0,0.30
 "Norris, Moran RB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0.3,0,0.0,0,0,0.3,2.3,7.7,0,0,0.30
-"Bolen, Brock RB JAC ",Free Agent,KC,9,0,0,0,0,0,0.0,0.3,1.7,5.7,0,0,0.3,2.3,7.7,0,0,0.30
+"Bolen, Brock RB CLE ",Free Agent,MIA,10,0,0,0,0,0,0.0,0.3,1.7,5.7,0,0,0.3,2.3,7.7,0,0,0.30
 "Maui'a, Reagan RB ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,4.3,14.3,0,0,0.30
 "Miller, Brit RB STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0.7,1.7,2.4,0,0,0.3,4.7,15.7,0,0,0.30
 "Logan, Stefan RB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,3.0,16.0,5.3,0,0,0.7,5.3,7.6,0,0.7,0.30
@@ -189,7 +188,8 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Williams, Jerodis RB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "McCoy, Jamie RB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Williams, Javarris RB DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Larsen, Spencer RB NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Larsen, Spencer RB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Wells, Beanie RB ARI",CaMelToE,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Boyce, Dorson RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Marshall, Cameron RB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Maysonet, Miguel RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -219,7 +219,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Riddick, Theo RB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,3.3,12.3,3.7,0,0,0,0,0.0,0,0,0
 "Jacobs, Brandon RB SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Shavers, Akeem RB NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Winn, George RB NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Winn, George RB NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Bailey, Antwon RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Tucker, Matthew RB PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Amosa, Jonathan RB GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -262,6 +262,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Brown, Matt RB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Miller, Lonyae RB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Hightower, Tim RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Turner, Michael RB ATL",DOUBLE PENETRATION,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Creer, Lennon RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Bartholomew, Ben RB NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Goggins, Deon RB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -275,7 +276,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Jackson, Rashawn RB OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Booker, Lorenzo RB CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Jackson, Brandon RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Battle, Jackie RB SD ",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Battle, Jackie RB TEN ",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Cox, Mike RB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Williams, Eddie RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0.3,0.3,1.0,0,0,0,2.7,0.0,0,0,0
 "Carter, Willie RB FA",Free Agent,BYE,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -300,7 +301,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Slaton, Steve RB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Ward, Trabis RB FA",Free Agent,BYE,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Randle, Bradley RB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Holley, Ray RB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Holley, Ray RB SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Johnson, Jeremiah RB DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Rouse, Robbie RB CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Ware, Spencer RB SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -312,7 +313,7 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Rainey, Bobby RB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Mughelli, Ovie RB STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Brown, Zach RB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Jamison, Jawan RB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Jamison, Jawan RB WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Karim, Deji RB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Wingo, Ronnie RB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Smith, Kevin RB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -333,4 +334,5 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Sylvester, Austin RB DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "O'Bryant, Denodus RB IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Wilson, Braden RB KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Spann, Chad RB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Berry, Damien RB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
