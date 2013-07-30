@@ -4,7 +4,8 @@ $(function() {
    e.preventDefault();
    var id = $("#player").val();
    var btype = this.id.replace("_",'');
-   $("#" + id.replace(/\s+/g, '').replace(/\./g, '')).attr("class","grey_out_" + btype);
+   //$("#" + id.replace(/\s+/g, '').replace(/\./g, '')).attr("class","grey_out_" + btype);
+   $("#" + id.replace(/\s+/g, '').replace(/\./g, '').replace(/\'/,'')).remove();
    var url = this.form.action;
    $.ajax({
      type: "GET",
@@ -15,6 +16,7 @@ $(function() {
          $("#table_myteam").append(data.pstring);
        $('.success_bar')[0].innerHTML = "success";
        $('.success_bar').fadeIn(1000).delay(1000).fadeOut(2000);
+       $("#player").val("");
      }
    });
    return false;
@@ -25,9 +27,9 @@ $(function() {
 
   $("#timerbtn").click(function(){
     clearInterval(counter);
-    count = 5;//$("#count").val();
+    count = $("#count").val();
     counter = setInterval(timer, 1000); //1000 will  run it every 1 second
-  })
+  });
 
   function timer(){
     count=count-1;
@@ -37,9 +39,12 @@ $(function() {
        //counter ended, do something here
        var number = Math.floor((Math.random()*2)+1);
        $("#timer")[0].innerHTML = "00";
-       //var snd = new Audio("Donkey"+number+".mp3"); // buffers automatically when created
-       var snd = new Audio("Donkey21.mp3")
-       snd.play();
+       var snd1 = new Audio("Donkey1.mp3"); // buffers automatically when created
+       var snd2 = new Audio("Donkey2.mp3");
+       if(number == 1)
+        snd1.play();
+       else
+        snd2.play();
        return;
     }
 

@@ -26,3 +26,7 @@
 .grey_out_myteam{
   color: #F0F8FF;
 }
+
+.hide_player{
+  visibility: hidden;
+}

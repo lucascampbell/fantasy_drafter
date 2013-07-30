@@ -18,24 +18,40 @@ namespace :load_data do
     when 'rb'
       base_line = (csv[36][20]).to_f
     when 'wr'
-      base_line = (csv[25][20]).to_f
+      base_line = (csv[37][20]).to_f
     when 'te'
       base_line = (csv[10][20]).to_f
     when 'qb'
       base_line = (csv[11][20]).to_f
     when 'defense'
-      base_line = (csv[10][20]).to_f
+      base_line = (csv[10][15]).to_f
     end
     
     csv.each do |row| 
       raw = row.first.split(" ")
-      name = "#{raw[1]} #{raw[0].gsub(',','')}"
-      player = Player.find_by_name_and_team(name,row[2])
+      if position == 'defense'
+        name = raw[0]
+      else
+        name = "#{raw[1]} #{raw[0].gsub(',','')}"
+      end
+      if position == 'defense'
+        player = Player.find_by_name(raw[0])
+      else
+        player = Player.find_by_name_and_team(name,raw[3])
+      end
       if player
         puts "player #{name} already in system update will occur"
-        player.update_attributes({:position=>position,:team=>raw[3],:fpts=>row[20],:fvalue =>(row[20].to_f - base_line)})
+        if position == 'defense'
+          player.update_attributes({:position=>position,:team=>raw[2],:fpts=>row[15],:fvalue =>(row[15].to_f - base_line)})
+        else
+          player.update_attributes({:position=>position,:team=>raw[3],:fpts=>row[20],:fvalue =>(row[20].to_f - base_line)})
+        end
       else
-        player = Player.create!({:name=>name,:position=>position,:team=>raw[3],:fpts=>row[20],:fvalue =>(row[20].to_f - base_line)})
+        if position == 'defense'
+          player = Player.create!({:name=>name,:position=>position,:team=>raw[2],:fpts=>row[15],:fvalue =>(row[15].to_f - base_line)})
+        else
+          player = Player.create!({:name=>name,:position=>position,:team=>raw[3],:fpts=>row[20],:fvalue =>(row[20].to_f - base_line)})
+        end
         puts "created new player #{name}"
       end
     end

@@ -24,7 +24,7 @@
               <td>adp</td>
             </tr>
             <% @players.where("position= :position or status = :position",{:position=>position}).order("fpts DESC").each do |player| %>
-              <tr id='<%=player.name.gsub(/\s+/, "").gsub(".","")%>' class="<%=position == 'myteam' ? '' : player.status.blank? ? '' : player.status == 'opponent' ? 'grey_out_opponent' : 'grey_out_myteam' %>">
+              <tr id='<%=position == "myteam" ? "" : player.name.gsub(/\s+/, "").gsub(".","").gsub("'","")%>' class="<%=position == 'myteam' ? '' : player.status.blank? ? '' : player.status == 'opponent' ? 'grey_out_opponent' : 'grey_out_myteam' %>">
                 <td><%=player.name%></td>
                 <td><%=player.team%></td>
                 <td><%=player.fpts.to_f.round(2)%></td>
