@@ -1,60 +1,61 @@
 All Quarterbacks NFL Standard Stats
 ,,Upcoming,,Passing,,,,,,Rushing,,,,Receiving,,,,,,,
 Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,FPTS,
-"Brees, Drew QB NO ",Freak'n Ricans,ATL,7,659.3,443.7,5135.7,42.7,16.0,102.1,16.7,21.3,1.3,1.0,0,0,0,0.0,0,2.0,436.80
-"Rodgers, Aaron QB GB ",South Central Grinder,@SF,4,548.3,366.7,4548.0,39.7,11.0,108.2,59.3,266.0,4.5,3.0,0,0,0,0.0,0,2.3,409.20
-"Manning, Peyton QB DEN ",CaMelToE,BAL,9,604.7,414.7,4875.0,40.0,12.7,106.1,18.3,10.7,0.6,0,0,0,0,0.0,0,1.3,407
-"Stafford, Matthew QB DET ",Massive DEZticles,MIN,9,679.7,422.3,4955.3,31.0,16.7,89.2,23.3,83.0,3.6,1.7,0,0,0,0.0,0,1.7,383.40
-"Newton, Cam QB CAR ",The Pluggers,SEA,4,509.7,309.0,4073.7,22.7,12.3,90.7,123.0,709.7,5.8,7.3,0,0,0,0.0,0,3.0,377
-"Ryan, Matt QB ATL ",Cabo Clap,@NO,6,613.3,412.0,4798.7,33.3,13.3,99.7,34.3,96.7,2.8,1.0,0,0,0,0.0,0,2.7,372.20
-"Romo, Tony QB DAL ",CaMelToE,NYG,11,625.3,409.0,4870.3,29.7,13.7,95.7,22.0,46.7,2.1,0.7,0,0,0,0.0,0,2.0,367.60
-"Brady, Tom QB NE ",Just Won Baby,@BUF,10,582.0,383.3,4425.7,32.0,11.3,98.9,33.0,57.0,1.7,2.7,0,0,0,0.0,0,1.3,348
-"Luck, Andrew QB IND ",Bukkake Bandits,OAK,8,566.0,369.3,4463.3,28.7,14.3,95.7,61.3,266.7,4.4,3.0,0,0,0,0.0,0,3.0,347.20
-"Griffin III, Robert QB WAS ",The Pluggers,PHI,5,455.7,303.0,3627.0,25.0,10.3,99.5,91.3,543.0,5.9,5.7,0,0,0,0.0,0,3.3,343
-"Kaepernick, Colin QB SF ",Free Agent,GB,9,512.0,327.7,3897.3,21.7,14.0,89.9,114.0,638.0,5.6,5.0,0,0,0,0.0,0,3.7,341.40
-"Wilson, Russell QB SEA ",Free Agent,@CAR,12,467.0,303.3,3659.0,25.7,11.0,97.4,93.3,487.0,5.2,4.7,0,0,0,0.0,0,2.0,337
-"Manning, Eli QB NYG ",McLovin,@DAL,9,566.3,360.0,4324.7,29.3,14.0,93.8,28.0,35.7,1.3,0,0,0,0,0.0,0,2.3,309.60
-"Roethlisberger, Ben QB PIT ",McLovin,TEN,5,524.3,334.3,3929.0,24.3,10.3,93.7,27.7,94.7,3.4,2.0,0,0,0,0.0,0,3.0,292.60
-"Cutler, Jay QB CHI ",Free Agent,CIN,8,528.3,334.7,3968.0,26.3,14.3,91.5,34.3,160.3,4.7,1.0,0,0,0,0.0,0,3.7,291.20
-"Dalton, Andy QB CIN ",DOUBLE PENETRATION,@CHI,12,555.0,342.7,4080.0,27.0,16.7,87.8,41.7,130.7,3.1,1.0,0,0,0,0.0,0,3.3,291
-"Freeman, Josh QB TB ",Bukkake Bandits,@NYJ,5,546.7,331.7,4107.0,25.7,16.7,86.9,44.3,163.7,3.7,0.7,0,0,0,0.0,0,3.0,287.60
-"Bradford, Sam QB STL ",Free Agent,ARI,11,556.3,345.0,4126.7,25.0,14.3,88.9,28.7,66.0,2.3,1.0,0,0,0,0.0,0,3.7,286
-"Schaub, Matt QB HOU ",Cabo Clap,@SD,8,537.7,341.3,4117.0,24.7,12.7,92.4,20.7,12.3,0.6,0.3,0,0,0,0.0,0,2.3,283.60
-"Rivers, Philip QB SD ",South Central Grinder,HOU,8,568.7,362.3,4338.3,25.0,17.7,88.6,24.3,35.3,1.5,0,0,0,0,0.0,0,4.0,282.60
-"Tannehill, Ryan QB MIA ",Free Agent,@CLE,6,542.7,345.3,4046.0,21.3,15.0,87.7,52.3,226.7,4.3,1.3,0,0,0,0.0,0,2.7,281.60
-"Smith, Alex QB KC ",Free Agent,@JAC,10,563.0,363.3,4114.0,23.0,14.0,89.6,38.3,131.3,3.4,1.0,0,0,0,0.0,0,3.7,281.60
-"Flacco, Joe QB BAL ",DOUBLE PENETRATION,@DEN,8,552.0,344.7,3935.7,23.0,13.7,87.4,39.0,67.3,1.7,1.7,0,0,0,0.0,0,4.0,275.80
+"Brees, Drew QB NO ",Free Agent,ATL,7,663.3,445.7,5102.3,42.0,16.0,101.2,16.7,21.3,1.3,1.0,0,0,0,0.0,0,1.7,428.60
+"Rodgers, Aaron QB GB ",Free Agent,@SF,4,550.0,369.3,4551.0,38.7,11.0,107.6,58.3,261.0,4.5,3.0,0,0,0,0.0,0,3.0,403.80
+"Manning, Peyton QB DEN ",Free Agent,BAL,9,599.7,411.3,4838.3,40.0,12.7,106.3,18.3,10.7,0.6,0,0,0,0,0.0,0,1.3,403
+"Stafford, Matthew QB DET ",Free Agent,MIN,9,679.7,419.3,4942.0,31.0,15.7,89.4,23.3,83.0,3.6,1.7,0,0,0,0.0,0,1.3,383.20
+"Newton, Cam QB CAR ",Free Agent,SEA,4,509.7,308.7,4050.3,22.7,12.3,90.5,123.0,709.7,5.8,7.3,0,0,0,0.0,0,3.0,377
+"Ryan, Matt QB ATL ",Free Agent,@NO,6,613.3,412.0,4798.7,33.3,12.7,100.1,34.3,96.7,2.8,1.0,0,0,0,0.0,0,2.7,373.40
+"Romo, Tony QB DAL ",Free Agent,NYG,11,625.3,409.0,4870.3,29.7,13.7,95.7,22.0,46.7,2.1,0.7,0,0,0,0.0,0,2.0,367.60
+"Luck, Andrew QB IND",Free Agent,OAK,8,583.0,378.0,4540.3,28.7,15.3,94.0,61.3,266.7,4.4,3.0,0,0,0,0.0,0,3.0,355.20
+"Brady, Tom QB NE ",Free Agent,@BUF,10,587.0,388.0,4485.3,32.0,12.3,98.4,33.0,57.0,1.7,2.7,0,0,0,0.0,0,1.3,354
+"Griffin III, Robert QB WAS ",Free Agent,PHI,5,459.7,305.3,3678.7,25.3,10.3,99.8,91.3,557.7,6.1,5.7,0,0,0,0.0,0,3.3,347.20
+"Kaepernick, Colin QB SF ",Free Agent,GB,9,510.3,326.0,3884.0,22.0,14.0,90.0,114.0,638.0,5.6,5.0,0,0,0,0.0,0,3.7,340.60
+"Wilson, Russell QB SEA ",Free Agent,@CAR,12,467.0,301.7,3617.3,25.3,11.0,96.4,93.3,453.7,4.9,4.3,0,0,0,0.0,0,2.0,328
+"Manning, Eli QB NYG",Free Agent,@DAL,9,566.3,360.0,4314.7,29.3,13.3,94.3,28.0,35.7,1.3,0.3,0,0,0,0.0,0,2.3,312.80
+"Dalton, Andy QB CIN ",Free Agent,@CHI,12,556.0,342.7,4092.7,27.0,16.7,87.8,41.7,130.7,3.1,1.0,0,0,0,0.0,0,3.3,291
+"Roethlisberger, Ben QB PIT ",Free Agent,TEN,5,521.7,331.3,3905.7,24.3,10.7,93.2,27.7,94.7,3.4,2.0,0,0,0,0.0,0,3.0,290.80
+"Cutler, Jay QB CHI ",Free Agent,CIN,8,528.3,336.3,3961.3,26.3,15.0,91.1,34.3,160.3,4.7,1.0,0,0,0,0.0,0,3.7,289.80
+"Freeman, Josh QB TB",Free Agent,@NYJ,5,548.3,333.3,4097.0,25.7,16.3,87.1,44.3,163.7,3.7,0.7,0,0,0,0.0,0,3.3,287.80
+"Bradford, Sam QB STL ",Free Agent,ARI,11,556.3,345.0,4130.0,25.3,14.7,88.8,28.7,66.0,2.3,1.0,0,0,0,0.0,0,3.3,287.20
+"Schaub, Matt QB HOU",Free Agent,@SD,8,534.0,339.3,4083.7,24.7,12.3,92.7,20.7,12.3,0.6,0.3,0,0,0,0.0,0,2.3,282.40
+"Smith, Alex QB KC ",Free Agent,@JAC,10,549.7,354.3,4081.0,22.7,13.3,90.4,37.3,129.7,3.5,1.0,0,0,0,0.0,0,3.7,279.80
+"Tannehill, Ryan QB MIA ",Free Agent,@CLE,6,535.0,341.0,3992.7,21.3,15.7,87.3,52.3,226.7,4.3,1.3,0,0,0,0.0,0,3.3,278
+"Rivers, Philip QB SD",Free Agent,HOU,8,571.7,362.3,4228.7,25.0,17.7,87.4,24.3,35.3,1.5,0,0,0,0,0.0,0,4.3,278
+"Flacco, Joe QB BAL ",Free Agent,@DEN,8,552.0,344.3,3931.7,23.3,14.0,87.2,39.0,67.3,1.7,1.3,0,0,0,0.0,0,4.0,274
+"Palmer, Carson QB ARI ",Free Agent,@STL,9,580.0,358.7,4125.3,25.0,16.7,85.6,21.7,29.7,1.4,0,0,0,0,0.0,0,3.7,273.20
 "Locker, Jake QB TEN ",Free Agent,@PIT,8,498.0,304.7,3651.3,19.7,14.3,84.8,58.3,276.7,4.7,2.3,0,0,0,0.0,0,2.3,270.40
-"Palmer, Carson QB ARI ",Massive DEZticles,@STL,9,580.0,355.7,4072.0,24.7,17.0,84.4,21.7,29.7,1.4,0,0,0,0,0.0,0,3.7,268.40
-"Weeden, Brandon QB CLE ",Free Agent,MIA,10,547.7,332.7,3935.3,21.0,15.7,83.5,24.0,83.3,3.5,0,0,0,0,0.0,0,1.7,259.20
-"Ponder, Christian QB MIN ",Free Agent,@DET,5,494.7,307.0,3497.3,21.0,15.0,84.8,47.0,209.7,4.5,1.0,0,0,0,0.0,0,4.0,245
-"Flynn, Matt QB OAK ",Free Agent,@IND,7,454.0,283.7,3555.3,20.7,14.7,88.5,27.0,47.0,1.7,0.3,0,0,0,0.0,0,2.3,237.60
-"Manuel, EJ QB BUF ",Free Agent,NE,12,355.3,213.3,2703.7,16.3,11.3,85.9,46.0,263.0,5.7,2.7,0,0,0,0.0,0,1.7,200.40
-"Vick, Michael QB PHI ",DOUBLE PENETRATION,@WAS,12,336.3,211.0,2379.0,16.3,11.0,86.4,61.3,354.0,5.8,2.7,0,0,0,0.0,0,4.0,190.40
-"Gabbert, Blaine QB JAC ",Free Agent,KC,9,367.0,221.7,2815.3,16.0,11.7,85.6,25.0,70.7,2.8,0.7,0,0,0,0.0,0,2.7,173.40
-"Smith, Geno QB NYJ ",Free Agent,TB,10,317.3,192.0,1508.7,15.0,11.0,73.6,76.7,340.7,4.4,2.0,0,0,0,0.0,0,2.7,137.60
-"Henne, Chad QB JAC ",Free Agent,KC,9,219.0,132.3,1411.0,8.7,6.7,79.8,10.0,30.7,3.1,0,0,0,0,0.0,0,1.0,83.40
-"Kolb, Kevin QB BUF ",Free Agent,NE,12,186.3,111.0,1050.0,6.0,4.3,76.3,7.3,22.3,3.1,0.3,0,0,0,0.0,0,0.3,63.60
-"Sanchez, Mark QB NYJ ",Free Agent,TB,10,169.0,100.7,1007.3,6.3,6.3,73.5,14.3,42.0,2.9,0.3,0,0,0,0.0,0,2.0,54.40
-"Foles, Nick QB PHI ",Free Agent,@WAS,12,121.0,76.3,838.3,5.0,2.3,89.4,7.0,24.7,3.5,0,0,0,0,0.0,0,0.7,48
-"Barkley, Matt QB PHI ",Free Agent,@WAS,12,107.3,68.0,757.3,4.3,2.3,88.7,4.0,13.3,3.3,0,0,0,0,0.0,0,1.0,41.60
+"Weeden, Brandon QB CLE ",Free Agent,MIA,10,547.7,332.7,3935.3,21.7,16.3,83.4,24.0,83.3,3.5,0,0,0,0,0.0,0,2.0,260.20
+"Ponder, Christian QB MIN ",Free Agent,@DET,5,493.0,305.3,3489.0,20.7,14.7,84.7,47.0,209.7,4.5,1.0,0,0,0,0.0,0,4.0,244.40
+"Flynn, Matt QB OAK ",Free Agent,@IND,7,453.3,286.3,3592.0,21.3,15.7,89.0,26.0,42.0,1.6,0.3,0,0,0,0.0,0,2.3,241
+"Manuel, EJ QB BUF ",Free Agent,NE,12,361.7,218.0,2828.0,17.7,12.0,87.4,46.0,263.0,5.7,2.7,0,0,0,0.0,0,1.7,208.60
+"Vick, Michael QB PHI ",Free Agent,@WAS,12,336.3,210.3,2370.0,16.3,10.7,86.5,64.0,371.0,5.8,2.7,0,0,0,0.0,0,3.7,193.60
+"Gabbert, Blaine QB JAC ",Free Agent,KC,9,365.7,220.0,2795.3,16.3,11.7,85.6,25.0,70.7,2.8,0.7,0,0,0,0.0,0,2.7,173.60
+"Smith, Geno QB NYJ ",Free Agent,TB,10,330.3,200.3,1590.7,15.0,10.3,74.8,76.7,340.7,4.4,2.0,0,0,0,0.0,0,2.7,144
+"Henne, Chad QB JAC ",Free Agent,KC,9,185.7,109.0,1277.7,8.7,6.7,80.2,10.0,30.7,3.1,0,0,0,0,0.0,0,1.0,75.40
+"Sanchez, Mark QB NYJ ",Free Agent,TB,10,169.0,100.7,1007.3,6.0,6.3,72.9,14.3,42.0,2.9,0.3,0,0,0,0.0,0,2.0,53.20
+"Foles, Nick QB PHI ",Free Agent,@WAS,12,128.3,80.0,879.7,5.3,2.7,87.6,7.0,24.7,3.5,0,0,0,0,0.0,0,0.7,49.40
+"Kolb, Kevin QB BUF ",Free Agent,NE,12,146.3,84.7,883.3,5.7,4.7,75.1,6.3,19.0,3.0,0,0,0,0,0.0,0,0.3,48.80
+"Barkley, Matt QB PHI ",Free Agent,@WAS,12,105.3,65.3,710.3,4.0,2.3,85.4,4.0,13.3,3.3,0,0,0,0,0.0,0,1.0,38.40
+"Pryor, Terrelle QB OAK ",Free Agent,@IND,7,76.7,47.0,452.0,2.3,2.3,75.2,13.7,71.0,5.2,0.7,0,0,0,0.0,0,0.7,25.40
 "Cousins, Kirk QB WAS ",Free Agent,PHI,5,62.3,39.0,457.3,3.0,1.7,89.5,4.0,14.3,3.6,0,0,0,0,0.0,0,0,23.60
-"Campbell, Jason QB CLE ",Free Agent,MIA,10,89.0,55.7,529.3,2.0,1.7,78.5,6.3,34.0,5.4,0,0,0,0,0.0,0,0.3,23
 "Fitzpatrick, Ryan QB TEN",Free Agent,@PIT,8,63.3,38.7,377.0,3.0,1.7,82.5,2.7,8.3,3.1,0.3,0,0,0,0.0,0,0.7,22
-"Pryor, Terrelle QB OAK ",Free Agent,@IND,7,47.7,30.7,272.3,2.0,1.7,78.6,9.3,50.3,5.4,0.3,0,0,0,0.0,0,0.7,14
-"Gradkowski, Bruce QB PIT",Free Agent,TEN,5,36.7,22.3,257.3,1.0,1.0,79.7,2.7,6.3,2.3,0,0,0,0,0.0,0,0.3,6.40
-"Wilson, Tyler QB OAK ",Free Agent,@IND,7,40.3,23.3,250.0,1.0,1.0,74.0,2.0,6.3,3.1,0,0,0,0,0.0,0,0.3,6.40
+"Campbell, Jason QB CLE ",Free Agent,MIA,10,35.7,21.0,266.0,1.7,1.7,78.2,3.7,14.7,4.0,0,0,0,0,0.0,0,0.3,7.80
+"Gradkowski, Bruce QB PIT",Free Agent,TEN,5,37.7,23.0,261.3,1.0,1.0,79.6,2.7,6.3,2.3,0,0,0,0,0.0,0,0.3,6.40
 "Cassel, Matt QB MIN ",Free Agent,@DET,5,28.3,18.7,159.3,1.3,1.3,76.8,3.7,9.3,2.5,0,0,0,0,0.0,0,0.3,5
-"Harrell, Graham QB GB",Free Agent,@SF,4,9.3,6.0,63.0,0.7,0,109.2,1.0,4.0,4.0,0,0,0,0,0.0,0,0,4.80
+"Harrell, Graham QB GB ",Free Agent,@SF,4,9.3,6.0,63.0,0.7,0,109.2,1.0,4.0,4.0,0,0,0,0,0.0,0,0,4.80
 "Stanton, Drew QB ARI",Free Agent,@STL,9,18.7,12.7,117.0,0.7,0.3,90.5,0.7,2.3,3.3,0,0,0,0,0.0,0,0.3,4.60
 "Whitehurst, Charlie QB SD",Free Agent,HOU,8,20.0,11.0,117.3,0.7,0.7,69.4,0,0,0.0,0,0,0,0,0.0,0,0,4.40
 "Taylor, Tyrod QB BAL",Free Agent,@DEN,8,15.0,9.3,105.3,0.3,0,89.7,3.7,17.3,4.7,0,0,0,0,0.0,0,0,4.20
-"Dixon, Dennis QB PHI",Free Agent,@WAS,12,7.7,5.0,37.3,0.3,0,89.4,3.7,21.7,5.9,0,0,0,0,0.0,0,0,4.20
+"Dixon, Dennis QB PHI ",Free Agent,@WAS,12,7.7,5.0,37.3,0.3,0,89.4,3.7,21.7,5.9,0,0,0,0,0.0,0,0,4.20
+"Wilson, Tyler QB OAK ",Free Agent,@IND,7,11.3,7.0,70.3,0.7,0.3,89.2,0.7,2.7,3.9,0,0,0,0,0.0,0,0.3,3.60
 "Hoyer, Brian QB CLE ",Free Agent,MIA,10,5.0,3.0,38.3,0.3,0,104.0,1.0,3.7,3.7,0,0,0,0,0.0,0,0,3.20
 "Mallett, Ryan QB NE",Free Agent,@BUF,10,3.7,2.3,22.7,0.3,0,106.5,0,0,0.0,0,0,0,0,0.0,0,0,3.20
 "Hill, Shaun QB DET",Free Agent,MIN,9,5.0,3.0,25.3,0.3,0,93.2,0.7,0.7,1.0,0,0,0,0,0.0,0,0,3.20
 "Orton, Kyle QB DAL",Free Agent,NYG,11,5.0,3.3,26.0,0.3,0,98.8,0.7,0.7,1.0,0,0,0,0,0.0,0,0,3.20
 "Osweiler, Brock QB DEN",Free Agent,BAL,9,12.7,8.3,89.0,0.3,0,93.6,2.0,3.7,1.9,0,0,0,0,0.0,0,0,3.20
+"Daniel, Chase QB KC",Free Agent,@JAC,10,11.7,8.0,78.3,0.3,0.3,84.8,1.0,3.3,3.3,0,0,0,0,0.0,0,0,2.60
 "Painter, Curtis QB NYG",Free Agent,@DAL,9,5.7,3.3,34.0,0,0,75.2,1.0,4.7,4.7,0,0,0,0,0.0,0,0,2
 "McCown, Josh QB CHI",Free Agent,CIN,8,17.0,9.3,100.3,0.3,0.7,61.0,2.0,8.7,4.3,0,0,0,0,0.0,0,0.3,1.20
 "Carr, David QB NYG",Free Agent,@DAL,9,1.7,1.0,7.7,0,0,70.0,0,0,0.0,0,0,0,0,0.0,0,0,1
@@ -74,31 +75,31 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Harnish, Chandler QB IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Sorensen, Brad QB SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Archer, R.J. QB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Wallace, Seneca QB NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Wallace, Seneca QB NO ",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Tuel, Jeff QB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Crompton, Jonathan QB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Brandstater, Tom QB STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Renfree, Sean QB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Glennon, Mike QB TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Skelton, John QB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Bray, Tyler QB KC ",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Skelton, John QB CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Bray, Tyler QB KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Hanie, Caleb QB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Crist, Dayne QB BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Coleman, B.J. QB GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Carder, Alex QB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Bethel-Thompson, McLeod QB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Nesbitt, Joshua QB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Stanzi, Ricky QB KC ",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Stanzi, Ricky QB KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Clemens, Kellen QB STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Doege, Seth QB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Clausen, Jimmy QB CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Leinart, Matt QB OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Johnson, Josh QB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Johnson, Josh QB CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "McGee, Stephen QB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "McElroy, Greg QB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Garrard, David QB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Keenum, Case QB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"McCoy, Colt QB SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"McCoy, Colt QB SF ",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Belton, Clay QB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Bartel, Richard QB ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Moore, Kellen QB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -108,23 +109,22 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Quinn, Brady QB SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Blanchard, Matt QB CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Beck, John QB HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Rosenfels, Sage QB MIN ",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Rosenfels, Sage QB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Smith, Troy QB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Daniel, Chase QB KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Thigpen, Tyler QB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Devlin, Pat QB MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Robinson, Zac QB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Ratliff, Brett QB TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Robinson, Zac QB CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Stephens, Nick QB DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Jones, Landry QB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Williams, Dalton QB DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Johnson, Jerrod QB SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Lewis, Thad QB DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Padron, Kyle QB OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Kinne, G.J. QB PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Cameron, Colby QB CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Kinne, G.J. QB PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Enderle, Nathan QB SD ",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Nassib, Ryan QB NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Enderle, Nathan QB TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Vandenberg, James QB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Canfield, Sean QB NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Tebow, Tim QB NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -132,27 +132,27 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Harris, Jacory QB PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Feeley, A.J. QB STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Klein, Collin QB FA",Free Agent,BYE,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Webb, Joe QB MIN ",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Webb, Joe QB MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Hasselbeck, Matt QB IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Tolzien, Scott QB SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Redman, Chris QB ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Palmer, Jordan QB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Dysert, Zac QB DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Lindley, Ryan QB ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Palmer, Jordan QB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Aplin, Ryan QB FA",Free Agent,BYE,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Lindley, Ryan QB ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Brown, Matt QB GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Young, Vince QB BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Young, Vince QB GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Katz, Ryan QB DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Scott, Matt QB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Leftwich, Byron QB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Simms, Matt QB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Scott, Matt QB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Hermann, Mike QB SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"McCown, Luke QB NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Simms, Matt QB NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"McCown, Luke QB NO ",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Perrilloux, Ryan QB NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Kafka, Mike QB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Batch, Charlie QB PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Rodgers, Jordan QB JAC ",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "McGloin, Matthew QB OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Rodgers, Jordan QB JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "White, Pat QB WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "TerBush, Caleb QB ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Smith, Rusty QB TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0

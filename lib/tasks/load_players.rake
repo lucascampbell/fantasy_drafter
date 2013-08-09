@@ -10,8 +10,14 @@ namespace :load_data do
     csv  = CSV.parse(file)
 
      #remove first three lines
-    3.times do
-      csv.shift
+    if position == 'defense'
+      2.times do
+        csv.shift
+      end
+    else
+      3.times do
+        csv.shift
+      end
     end
 
     case position

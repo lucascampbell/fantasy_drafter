@@ -1,165 +1,207 @@
 All Tight Ends NFL Standard Stats
 ,,Upcoming,,Passing,,,,,,Rushing,,,,Receiving,,,,,,,
 Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,FPTS,
-"Graham, Jimmy TE NO ",Massive DEZticles,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,87.0,1094.3,12.6,10.0,0,248
-"Gronkowski, Rob TE NE ",Bukkake Bandits,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,72.3,1006.7,13.9,10.7,1.0,226.50
-"Witten, Jason TE DAL ",Cabo Clap,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,91.3,944.0,10.3,5.7,0,212.50
-"Gonzalez, Tony TE ATL ",Freak'n Ricans,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,84.3,891.7,10.6,7.3,0,209.10
-"Davis, Vernon TE SF ",Bukkake Bandits,GB,9,0,0,0,0,0,0.0,0.3,-0.3,-1.0,0,0,64.0,883.7,13.8,6.3,0,182.80
-"Olsen, Greg TE CAR",South Central Grinder,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,66.0,798.7,12.1,5.0,1.0,165
-"Rudolph, Kyle TE MIN",CaMelToE,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,59.0,642.3,10.9,8.0,0,164
-"Gates, Antonio TE SD",McLovin,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,61.7,714.0,11.6,6.3,0,162.50
-"Cook, Jared TE STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,58.7,734.0,12.5,5.7,0.3,157.30
-"Finley, Jermichael TE GB ",DOUBLE PENETRATION,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,62.3,726.0,11.7,5.0,0,157.30
-"Daniels, Owen TE HOU",McLovin,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,64.7,718.0,11.1,5.0,0.3,157.10
-"Bennett, Martellus TE CHI ",Cabo Clap,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,57.7,700.3,12.1,6.0,0,155.70
-"Myers, Brandon TE NYG",DOUBLE PENETRATION,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,63.0,697.3,11.1,4.7,0,153.20
-"Pettigrew, Brandon TE DET",Just Won Baby,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,65.0,681.0,10.5,4.3,1.0,148.80
-"Allen, Dwayne TE IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0.7,2.0,2.9,0,0,54.0,595.3,11.0,4.7,0.7,132.80
+"Graham, Jimmy TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,87.3,1098.7,12.6,10.0,0,248.30
+"Gronkowski, Rob TE NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,72.3,1006.7,13.9,10.7,1.0,226.50
+"Witten, Jason TE DAL ",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,91.3,966.0,10.6,5.7,0,214.50
+"Gonzalez, Tony TE ATL ",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,84.3,891.7,10.6,6.7,0,205.50
+"Davis, Vernon TE SF ",Free Agent,GB,9,0,0,0,0,0,0.0,0.3,-0.3,-1.0,0,0,64.0,883.7,13.8,6.3,0,182.80
+"Gates, Antonio TE SD ",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,63.0,729.7,11.6,6.7,0.3,167.60
+"Olsen, Greg TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,63.7,792.0,12.4,5.0,1.0,162.70
+"Cook, Jared TE STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,59.3,773.0,13.0,5.7,0.3,161.90
+"Rudolph, Kyle TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,59.0,664.0,11.3,7.3,0,161.80
+"Finley, Jermichael TE GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,62.3,726.0,11.7,5.7,0,161.50
+"Bennett, Martellus TE CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,57.7,707.0,12.3,6.0,0,156.70
+"Myers, Brandon TE NYG ",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,63.0,697.3,11.1,4.7,0,153.20
+"Pettigrew, Brandon TE DET ",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,66.7,686.7,10.3,4.7,1.0,152.90
+"Daniels, Owen TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,61.7,681.3,11.0,5.0,0.3,151.10
 "Lewis, Marcedes TE JAC ",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,53.3,571.3,10.7,5.3,0.7,132.70
 "Davis, Fred TE WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,48.0,607.7,12.7,4.7,0,128.20
-"Gresham, Jermaine TE CIN",South Central Grinder,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,51.7,585.3,11.3,4.7,1.3,127.30
 "Keller, Dustin TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,50.0,582.3,11.6,4.3,0,125.80
-"Housler, Rob TE ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,52.0,571.0,11.0,4.0,0,125
-"Miller, Heath TE PIT ",Freak'n Ricans,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,44.3,547.0,12.3,4.7,0,119.50
-"Cameron, Jordan TE CLE ",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,48.7,572.0,11.7,3.7,0.3,119.30
-"Casey, James TE PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,4.7,19.3,4.1,0,0,41.7,553.3,13.3,4.7,0.3,117.30
+"Housler, Rob TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,52.0,571.0,11.0,4.0,0,125
+"Allen, Dwayne TE IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,0.7,2.0,2.9,0,0,52.0,568.7,10.9,4.0,0.3,124.40
+"Eifert, Tyler TE CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,48.0,584.7,12.2,4.3,0.3,123.20
+"Cameron, Jordan TE CLE ",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,48.7,572.0,11.7,4.3,0.3,122.90
+"Miller, Heath TE PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,42.0,535.7,12.8,4.7,0,116.20
+"Fleener, Coby TE IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,46.0,524.7,11.4,4.3,0.3,115.20
+"Dickson, Ed TE BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,42.3,552.3,13.1,4.3,0.3,114.50
+"Gresham, Jermaine TE CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,44.0,533.0,12.1,4.3,0.7,114.40
+"Casey, James TE PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,4.7,19.3,4.1,0,0,40.7,541.7,13.3,4.3,0.3,112.90
 "Miller, Zach TE SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,41.3,514.3,12.5,4.3,0.3,110.50
-"Walker, Delanie TE TEN ",Free Agent,@PIT,8,0,0,0,0,0,0.0,2.0,9.3,4.7,0,0,37.0,489.3,13.2,4.7,0.7,104.80
-"Dickson, Ed TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,40.3,492.3,12.2,4.0,0.3,104.70
-"Eifert, Tyler TE CIN ",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,39.7,520.7,13.1,3.7,0.7,104.50
-"Tamme, Jacob TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,42.3,483.0,11.4,3.0,0,101.30
-"Fleener, Coby TE IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,40.3,475.7,11.8,3.7,0.3,100.90
-"Chandler, Scott TE BUF ",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,36.7,429.7,11.7,4.0,0.7,93.30
-"Celek, Brent TE PHI ",The Pluggers,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,36.7,462.7,12.6,2.3,0,87.50
+"Walker, Delanie TE TEN ",Free Agent,@PIT,8,0,0,0,0,0,0.0,2.0,9.3,4.7,0,0,37.0,503.3,13.6,4.3,0.7,104.40
+"Tamme, Jacob TE DEN ",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,39.3,438.7,11.2,3.0,0,93.30
+"Chandler, Scott TE BUF ",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,36.7,429.7,11.7,3.7,0.7,91.50
+"Celek, Brent TE PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,35.3,446.0,12.6,2.3,0,85.10
+"Ausberry, David TE OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,32.7,423.7,13.0,3.0,0,84.70
 "Dreessen, Joel TE DEN ",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,29.0,335.0,11.6,5.0,0,84
-"Cumberland, Jeff TE NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,33.7,405.3,12.0,2.7,0,82.90
+"Cumberland, Jeff TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,33.7,405.3,12.0,2.7,0,82.90
 "Fasano, Anthony TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,34.0,364.0,10.7,3.0,0,80
-"Scheffler, Tony TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,32.7,398.0,12.2,2.7,0,79.90
+"Scheffler, Tony TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,31.7,386.3,12.2,2.7,0,78.90
 "Kelce, Travis TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,29.3,358.7,12.2,3.0,0.3,74.70
-"Ausberry, David TE OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,29.3,380.3,13.0,2.3,0,73.10
 "Moeaki, Tony TE KC ",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,29.3,358.3,12.2,1.7,0,67.50
 "Graham, Garrett TE HOU ",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,26.3,316.3,12.0,2.3,0,63.10
-"Ballard, Jake TE NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,20.3,242.0,11.9,3.0,0,55.30
+"Ballard, Jake TE NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,19.7,235.7,12.0,3.0,0,52.70
 "Stocker, Luke TE TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,22.3,266.7,12.0,1.7,0,50.50
-"Crabtree, Tom TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,20.3,253.3,12.5,2.0,0,49.30
+"Crabtree, Tom TE TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,20.3,253.3,12.5,2.0,0,49.30
+"Ertz, Zach TE PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,0.3,1.0,3.3,0,0,20.0,241.3,12.1,1.7,0,47.20
 "Watson, Benjamin TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,19.3,246.7,12.8,1.3,0,44.10
 "Kendricks, Lance TE STL ",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,19.0,212.0,11.2,1.7,0,43.20
-"King, Jeff TE ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,17.0,166.0,9.8,2.0,0,38
-"Ertz, Zach TE PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,0.3,1.0,3.3,0,0,16.7,204.0,12.2,1.3,0,36.50
+"Thomas, Julius TE DEN ",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,15.7,226.0,14.4,1.7,0.3,40.30
+"King, Jeff TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,17.0,166.0,9.8,2.0,0,38
 "Clay, Charles TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,15.0,183.0,12.2,1.0,0,32
-"Escobar, Gavin TE DAL ",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,13.7,168.3,12.3,1.3,0,30.50
-"Davis, Kellen TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,15.3,171.7,11.2,1.0,0,30.30
-"McDonald, Vance TE SF ",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,14.0,174.3,12.5,1.0,0,29
+"Escobar, Gavin TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,13.7,168.3,12.3,1.3,0,30.50
+"McDonald, Vance TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,14.0,174.3,12.5,1.0,0,29
 "Williams, D.J. TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,12.7,136.7,10.8,1.7,0,28.90
-"Smith, Lee TE BUF ",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,13.0,161.7,12.4,0.7,0,26.20
+"Winslow, Kellen TE NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,14.3,168.0,11.7,0.7,0.3,26.90
+"Smith, Lee TE BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,13.0,161.7,12.4,0.7,0,26.20
 "Phillips, John TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,12.7,120.3,9.5,0.7,0,21.90
-"Winslow, Kellen TE NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,11.3,138.0,12.2,0.7,0.3,20.90
-"Green, Virgil TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,10.0,134.7,13.5,0.7,0,20.20
-"Quarless, Andrew TE GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,9.0,112.3,12.5,1.0,0,20
+"Green, Virgil TE DEN ",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,10.0,134.7,13.5,0.7,0,20.20
+"Davis, Kellen TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,11.0,126.7,11.5,0.7,0,20.20
+"Quarless, Andrew TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,9.0,112.3,12.5,1.0,0,20
+"Shiancoe, Visanthe TE BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,10.7,126.0,11.8,0.7,0,19.90
 "Spaeth, Matt TE PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,9.7,104.3,10.8,1.0,0,19.70
-"Paulsen, Logan TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,10.0,115.3,11.5,0.7,0,19.20
+"Paulsen, Logan TE WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,10.0,115.3,11.5,0.7,0,19.20
 "Stevens, Craig TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,11.3,140.0,12.4,0.3,0,19.10
-"Shiancoe, Visanthe TE BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,9.7,116.0,12.0,0.7,0,18.90
 "Paulson, David TE PIT ",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,9.7,108.7,11.2,0.7,0,17.90
 "Reed, Jordan TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,8.0,120.3,15.0,0.7,0,17.20
 "Rivera, Mychal TE OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,10.3,125.7,12.2,0.3,0,17.10
-"Carlson, John TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,11.0,111.0,10.1,0.3,0,16.80
-"Hoomanawanui, Michael TE NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,9.7,115.0,11.9,0.3,0,16.50
+"Carlson, John TE MIN ",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,11.0,111.0,10.1,0.3,0,16.80
+"Hoomanawanui, Michael TE NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,9.7,115.0,11.9,0.3,0,16.50
+"Green, Ladarius TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,9.0,116.7,13.0,0.3,0,15.80
+"Barnidge, Gary TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,9.3,105.7,11.4,0.3,0,15.10
 "McCoy, Anthony TE SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,6.7,95.7,14.3,0.7,0,14.90
 "Coffman, Chase TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,7.3,71.7,9.8,0.7,0,14.50
 "Thompson, Taylor TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,8.3,88.7,10.7,0.3,0,14.10
-"Green, Ladarius TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,8.0,106.7,13.3,0.3,0,13.80
-"Kasa, Nick TE OAK ",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,7.7,92.3,12.0,0.3,0,13.50
-"Hanna, James TE DAL ",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,9.3,84.3,9.1,0,0,13.30
-"Reuland, Konrad TE NYJ ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,8.0,75.0,9.4,0.3,0,12.80
+"Kasa, Nick TE OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,7.7,92.3,12.0,0.3,0,13.50
+"Hanna, James TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,9.3,84.3,9.1,0,0,13.30
+"Reuland, Konrad TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,8.0,75.0,9.4,0.3,0,12.80
 "Celek, Garrett TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,6.7,84.0,12.5,0.3,0,12.50
 "Robinson, Adrien TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,6.0,85.3,14.2,0.3,0,11.80
-"Pascoe, Bear TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,7.3,85.0,11.6,0,0,11.30
 "Gordon, Richard TE OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,7.3,89.7,12.3,0,0,11.30
-"Egnew, Michael TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,6.0,76.7,12.8,0.3,0,10.80
-"Harbor, Clay TE PHI ",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,6.3,62.7,10.0,0.3,0,10.10
+"Pascoe, Bear TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,7.3,85.0,11.6,0,0,11.30
+"Egnew, Michael TE MIA ",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,6.0,76.7,12.8,0.3,0,10.80
 "Maneri, Steve TE CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,5.7,61.7,10.8,0.3,0,9.50
-"Palmer, Michael TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,5.3,59.0,11.1,0.3,0,9.10
-"Fells, Daniel TE NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,5.0,55.3,11.1,0.3,0,8.80
+"Palmer, Michael TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,5.3,59.0,11.1,0.3,0,9.10
+"Fells, Daniel TE NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,5.0,55.3,11.1,0.3,0,8.80
 "Paul, Niles TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,5.3,74.0,14.0,0,0,8.30
 "Miller, Zach TE TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0.3,1.0,3.3,0,0,4.3,47.0,10.9,0.3,0,7.10
 "Reisner, Allen TE JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,5.0,56.3,11.3,0,0,7
-"Barnidge, Gary TE CLE ",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,5.0,60.7,12.1,0,0,7
+"Harbor, Clay TE PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,4.0,44.3,11.1,0.3,0,6.80
 "Sims, Dion TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,3.3,29.7,9.0,0.3,0,6.10
-"Thomas, Julius TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,4.0,55.7,13.9,0,0,6
-"Ellison, Rhett TE MIN ",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,5.0,44.3,8.9,0,0,6
+"Ellison, Rhett TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,5.0,44.3,8.9,0,0,6
 "Moore, Evan TE PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,2.7,32.7,12.1,0.3,0,5.50
 "Saunders, Weslye TE IND ",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,4.3,46.7,10.9,0,0,5.30
-"Eldridge, Brody TE CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,3.0,23.7,7.9,0,0,4
 "Brockel, Richie TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,1.3,3.7,2.8,0,0,1.7,12.7,7.5,0.3,0,3.50
+"Eldridge, Brody TE CHI ",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,2.3,18.7,8.1,0,0,3.30
 "Smith, Hayden TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,2.3,29.0,12.6,0,0,3.30
-"Hartsock, Ben TE CAR ",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,17.0,10.0,0,0,2.70
+"Hartsock, Ben TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,17.0,10.0,0,0,2.70
 "Dray, Jim TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,21.7,12.8,0,0,2.70
 "McNeill, Mike TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,2.0,14.0,7.0,0,0,2
-"Caussin, Mike TE BUF ",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,12.0,7.1,0,0,1.70
-"Taylor, Ryan TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,13.7,8.1,0,0,1.70
+"Caussin, Mike TE BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,12.0,7.1,0,0,1.70
+"Taylor, Ryan TE GB ",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,1.7,13.7,8.1,0,0,1.70
 "Adams, Kyle TE CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,1.3,13.3,10.2,0,0,1.30
-"Gronkowski, Dan TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,1.0,7.0,7.0,0,0,1
 "Byham, Nate TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,1.0,5.0,5.0,0,0,1
+"Gronkowski, Dan TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,1.0,7.0,7.0,0,0,1
 "Sperry, Kory TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0.7,11.7,16.7,0,0,0.70
+"Pianalto, Zack TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0.7,6.7,9.6,0,0,0.70
 "Onobun, Fendi TE CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0.7,3.3,4.7,0,0,0.70
 "Cochart, Colin TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0.7,7.3,10.4,0,0,0.70
-"Pianalto, Zack TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0.7,6.7,9.6,0,0,0.70
-"Shuler, Mickey TE ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,5.0,16.7,0,0,0.30
 "Smelley, Brad TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,1.0,3.3,0,0,0.30
 "Brock, Kevin TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,4.7,15.7,0,0,0.30
+"Gallarda, Tommy TE ATL ",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,2.3,7.7,0,0,0.30
+"Shuler, Mickey TE ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,5.0,16.7,0,0,0.30
 "Stanback, Isaiah TE JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,2.0,6.7,0,0,0.30
-"Gallarda, Tommy TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0.3,2.3,7.7,0,0,0.30
-"Clark, Dallas TE TB",Just Won Baby,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Veldman, Matt TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Schiltz, Adam TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Clark, Dallas TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Gottlieb, Alex TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Byrne, Jake TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Harris, Clark TE CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Mastrud, Jeron TE OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Leach, Mike TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Rolf, David TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Graham, Daniel TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Marshall, Victor TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Otten, Ryan TE JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Stoneburner, Jake TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Rucker, Martin TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Newton, Morgan TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Milton, Keavon TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Holloway, Murphy TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Sudfeld, Zach TE NE ",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Landi, Evan TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Fauria, Joseph TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Sawyer, Joe TE BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Guidugli, Ben TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "McMichael, Randy TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Bryan, George TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Anderson, Colin TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Harkey, Cory TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Barden, Brandon TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Childers, Jamie TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Reed, Lucas TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Cunningham, Justice TE IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Drew, Davon TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Miller, Kyle TE MIA ",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Purvis, Ryan TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Peterson, Deangelo TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Jefferson, D.C. TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Wells, Austin TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Yeatman, Will TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Griffin, Ryan TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Peelle, Justin TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Morrah, Cameron TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Dunsmore, Drake TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Miller, Anthony TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Schouman, Derek TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Mulligan, Matthew TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Watson, Steve TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Ogbuehi, Emmanuel TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Tannahill, Travis TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Provo, Nick TE BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Williams, Michael TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Williams, Brandon TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Smith, Greg TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"McGrath, Sean TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Supernaw, Phillip TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Hernandez, Aaron TE FA",Free Agent,BYE,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Clement, Chase TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Ford, Brandon TE NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Szczerba, Andrew TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Hoskins, Garrett TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Reed, Kyler TE JAC ",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Higgins, Mike TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Gafford, Thomas TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Humphrey, Tory TE OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Skelton, Steve TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Shanahan, Mike TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Lutzenkirchen, Philip TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Graham, Cameron TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Donnell, Larry TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Freedman, Paul TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Pantale, Chris TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Lee, Donald TE CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Brown, LaMark TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Cooley, Chris TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Robinson, Gijon TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Brock, Logan TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Harris, Demetrius TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Tuitupou, Peter TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Veldman, Matt TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Schiltz, Adam TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Byrne, Jake TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Harris, Clark TE CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Leach, Mike TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Graham, Daniel TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Marshall, Victor TE SEA ",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Otten, Ryan TE JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Stoneburner, Jake TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Lintz, Andrei TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Rucker, Martin TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Newton, Morgan TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Fauria, Joseph TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Bryan, George TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Rabe, John TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "O'Connell, Jake TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Noble, Danny TE TB ",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Doyle, Jack TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Harkey, Cory TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Ford, Chase TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Haynos, Joey TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Barden, Brandon TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Baker, Josh TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Childers, Jamie TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Walker, Dallas TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Cloherty, Colin TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Reed, Lucas TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Hill, Josh TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Gragg, Chris TE BUF ",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Cunningham, Justice TE IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Drew, Davon TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Miller, Kyle TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Gragg, Chris TE BUF",Free Agent,NE,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Taylor, Brad TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Konz, Jameson TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Smith, Andre TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Purvis, Ryan TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Peterson, Deangelo TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Jefferson, D.C. TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Wells, Austin TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Toilolo, Levine TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Zelenka, Joe TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Auffray, Kyle TE ARI ",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
@@ -168,74 +210,36 @@ Player,Team,Opp,Bye,Att,Cmp,Yd,TD,Int,Rate,Att,Yd,Avg,TD,Tar,Recpt,Yd,Avg,TD,FL,
 "Jennings, Brian TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Shaw, Will TE PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Prince, Colby TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Pope, Leonard TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Yeatman, Will TE MIA",Free Agent,@CLE,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Griffin, Ryan TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Pope, Leonard TE CHI",Free Agent,CIN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Jones, Dominique TE IND",Free Agent,OAK,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Peelle, Justin TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Morrah, Cameron TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Rosario, Dante TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Dunsmore, Drake TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Miller, Anthony TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Schouman, Derek TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Mulligan, Matthew TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Bostick, Brandon TE GB",Free Agent,@SF,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Ingram, Cornelius TE DEN",Free Agent,BAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Webb, Martell TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Watson, Steve TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Ogbuehi, Emmanuel TE WAS",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Tannahill, Travis TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Cotton, Ben TE SD",Free Agent,HOU,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Williams, Michael TE DET ",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Overbay, Nathan TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Williams, Brandon TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Smith, Greg TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"McGrath, Sean TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Overbay, Nathan TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Smith, Alex TE CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Supernaw, Phillip TE HOU",Free Agent,@SD,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Fells, Darren TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Finley, J.J. TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Hernandez, Aaron TE FA ",The Pluggers,BYE,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Clement, Chase TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Willson, Luke TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Ford, Brandon TE NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Szczerba, Andrew TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Spach, Stephen TE JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Cosby, DeMarco TE TEN",Free Agent,@PIT,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Carrier, Derek TE PHI",Free Agent,@WAS,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Hoskins, Garrett TE CLE",Free Agent,MIA,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Herman, Brad TE NE",Free Agent,@BUF,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Nissley, Adam TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Nissley, Adam TE ATL ",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Franklin, Collin TE TB",Free Agent,@NYJ,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Reed, Kyler TE JAC ",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Higgins, Mike TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Helfet, Cooper TE SEA",Free Agent,@CAR,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Gafford, Thomas TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Humphrey, Tory TE OAK",Free Agent,@IND,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Skelton, Steve TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Shanahan, Mike TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Lutzenkirchen, Philip TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Brackett, Brett TE JAC",Free Agent,KC,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Graham, Cameron TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Bajema, Billy TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Donnell, Larry TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Hopkins, Chris TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Heap, Todd TE ARI",Free Agent,@STL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Freedman, Paul TE DAL",Free Agent,NYG,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Pantale, Chris TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Lee, Donald TE CIN",Free Agent,@CHI,12,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Boss, Kevin TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Brown, LaMark TE MIN",Free Agent,@DET,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Pitta, Dennis TE BAL ",Just Won Baby,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Pitta, Dennis TE BAL ",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Epps, Dedrick TE NYJ",Free Agent,TB,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Heller, Will TE DET",Free Agent,MIN,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Thomas, David TE NO",Free Agent,ATL,7,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Cooley, Chris TE WAS ",Free Agent,PHI,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Furstenburg, Matt TE BAL",Free Agent,@DEN,8,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Robinson, Gijon TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Brock, Logan TE CAR",Free Agent,SEA,4,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
+"Biere, Tim TE ATL",Free Agent,@NO,6,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Beckum, Travis TE NYG",Free Agent,@DAL,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Harris, Demetrius TE KC",Free Agent,@JAC,10,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
-"Tuitupou, Peter TE PIT",Free Agent,TEN,5,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Schepler, Jason TE SF",Free Agent,GB,9,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
 "Potter, Zach TE STL",Free Agent,ARI,11,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,0.0,0,0,0
