@@ -33,7 +33,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-
+gem 'asset_sync'
 group :assets do
   # Use SCSS for stylesheets
 	gem 'sass-rails', '~> 4.0.0'
@@ -41,7 +41,7 @@ group :assets do
 	gem 'uglifier', '>= 1.3.0'
 	# Use CoffeeScript for .js.coffee assets and views
 	gem 'coffee-rails', '~> 4.0.0'
-  gem 'asset_sync'
+  
 end
 
 # Use ActiveModel has_secure_password
