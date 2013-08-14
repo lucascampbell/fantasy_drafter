@@ -22,7 +22,7 @@ $(function() {
    return false;
  });
 
-  var count = 180;
+  var count = 120;
   var counter;
 
   $("#timerbtn").click(function(){
