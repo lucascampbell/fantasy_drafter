@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
+gem 'devise'
 
 group :development do
   gem 'sqlite3'

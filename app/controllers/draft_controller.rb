@@ -1,5 +1,6 @@
 class DraftController < ApplicationController
-
+  before_filter :get_user
+  
   def index
     @players = Player.all
   end

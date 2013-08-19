@@ -2,19 +2,9 @@
   <div class="navbar-inner">
       <div class="container">
         <div class='brand pull-left'>
-            <%= image_tag "logo.png",{:width=>'30px',:height=>'20px'}%>
+            <%#= image_tag "logo.png",{:width=>'30px',:height=>'20px'}%>
           Fantasy Tracker
-          <span id='timer' style="padding:10px;margin-right:20px;font-size:36px">00</span>
-          <span><a id='timerbtn' class='btn btn-info' style='margin-top:0'>start</a></span>
-          <span>
-            <select id='count' style='width:100px;margin-bottom:0'> 
-              <option>60</option>
-              <option>120</option>
-              <option>300</option>
-            </select>
-          </span>
       </div>
-    </ul>
       <ul class='nav nav-tabs pull-right'>
         <li class='<%=@tab.nil? ? "active" : ""%>'><a href='#myteam' data-toggle="tab" style="padding:20px">Team</a></li>
         <li class='<%=@tab == 'qb' ? "active" : ""%>'><a href='#qb' data-toggle="tab" style="padding:20px">QBs</a></li>
