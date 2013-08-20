@@ -11,7 +11,7 @@
             <h4><%=full_postion_name(position)%></h4>
           </div>
           <%if position == 'myteam'%>
-            <div class='offset1 span7' style='margin-top:10px'>
+            <div class='offset1 span7' style='margin-bottom:10px'>
               <span>
                 <%if @user.drafts.size > 1%>
                   <%=select_tag(:draft,options_for_select(@user.drafts.collect{|d| [d.name,d.id]}),{:style=>"margin-bottom:0"})%>
