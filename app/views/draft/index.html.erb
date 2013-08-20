@@ -8,7 +8,7 @@
       <%["myteam","qb","rb","wr","te","defense"].each do |position| %>
         <div class='<%=position=="myteam" ? "tab-pane active" : "tab-pane"%>' id="<%=position%>">
           <div class='<%=position == "myteam" ? "span3" : ""%>'>
-            <h3><%=full_postion_name(position)%></h3>
+            <h4><%=full_postion_name(position)%></h4>
           </div>
           <%if position == 'myteam'%>
             <div class='offset1 span7' style='margin-top:10px'>
