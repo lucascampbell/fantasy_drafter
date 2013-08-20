@@ -1,8 +1,10 @@
 class DraftController < ApplicationController
   before_filter :get_user
-  
+
   def index
+    @tab = "draft"
     @players = Player.all
+    @drafts  = @user.drafts
   end
   
   def taken

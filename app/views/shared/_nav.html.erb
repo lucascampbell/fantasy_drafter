@@ -6,6 +6,7 @@
           Fantasy Tracker
       </div>
       <ul class='nav nav-tabs pull-right'>
+        <li class='<%=@tab == 'draft' ? "active" : ""%>'><a href='#draft' data-toggle="tab" style="padding:20px">Drafts</a></li>
         <li class='<%=@tab.nil? ? "active" : ""%>'><a href='#myteam' data-toggle="tab" style="padding:20px">Team</a></li>
         <li class='<%=@tab == 'qb' ? "active" : ""%>'><a href='#qb' data-toggle="tab" style="padding:20px">QBs</a></li>
         <li class='<%=@tab == 'rb' ? "active" : ""%>'><a href='#rb' data-toggle="tab" style="padding:20px">RBs</a></li>
