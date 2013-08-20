@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20130819233248) do
     t.string   "name"
     t.string   "scoring"
     t.integer  "teams"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(version: 20130819233248) do
   create_table "drafts_players", force: true do |t|
     t.integer "draft_id"
     t.integer "player_id"
+    t.string  "status"
   end
 
   create_table "players", force: true do |t|
