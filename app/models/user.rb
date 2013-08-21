@@ -6,4 +6,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :drafts
+
+  def curr_draft
+    self.drafts.find(session[:draft_id])
+  end
 end
