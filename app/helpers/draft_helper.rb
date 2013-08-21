@@ -13,7 +13,7 @@ module DraftHelper
     when 'defense'
       "Defenses"
     when 'myteam'
-      "My Team"
+      "Draft #{Draft.find(session[:draft_id]).name}"
     end
   end
 end
