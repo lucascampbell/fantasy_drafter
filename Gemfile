@@ -21,7 +21,7 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
 gem 'devise'
-
+gem 'rest-client'
 group :development do
   gem 'sqlite3'
 end
