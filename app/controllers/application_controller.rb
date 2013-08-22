@@ -4,12 +4,19 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def get_user
-    @user = User.find_by_league_id(params[:league_id])
+    league_id        = params[:league_id] || "testuser"
+    access_token     =  params[:access_token] || "testtoken"
+    @user            = User.find_by_league_id(league_id)
     unless @user
-      @user = User.new(:email => params[:league_id], :password => params[:league_id], :password_confirmation => params[:league_id])
-      @user.save
+      @user = User.new(:email => "lucas.campbellrossen@gmail.com", :password => league_id, :password_confirmation => league_id,:league_id=>league_id,:access_token=>access_token)
+      @user.save!
       sign_in @user, :bypass => true 
+    else
+      @user.update_attribute("access_token",access_token)
     end
-    session[:draft_id] ||= Draft.create({:name=>"#{Draft.count + 1}_#{Time.now.to_i}",:user=>@user}).id
+    puts "user is #{@user.inspect}"
+    session[:draft_id] = nil
+    puts "session is #{session[:draft_id]}"
+    session[:draft_id] = Draft.create!({:name=>"#{Draft.count + 1}_#{Time.now.to_i}",:user_id=>@user.id}).id if session[:draft_id].nil?
   end
 end

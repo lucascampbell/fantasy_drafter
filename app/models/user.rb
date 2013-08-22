@@ -7,7 +7,4 @@ class User < ActiveRecord::Base
 
   has_many :drafts
 
-  def curr_draft
-    self.drafts.find(session[:draft_id])
-  end
 end

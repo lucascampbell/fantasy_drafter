@@ -2,8 +2,9 @@ class DraftController < ApplicationController
   before_filter :get_user
 
   def index
-    @players = Player.all
-    @drafts  = @user.drafts
+    @players    = Player.all
+    @drafts     = @user.drafts
+    @curr_draft = @drafts.find(session[:draft_id])
   end
   
   def taken
