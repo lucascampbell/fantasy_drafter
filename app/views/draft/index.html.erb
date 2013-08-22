@@ -1,9 +1,11 @@
-<div class='span12'>
+<div class='span12' style='margin-top:100px'>
+  <center>
     <%=form_tag('taken') do%>
       <input id='player' name='player' type="text" class='input-large' style='margin-bottom:0'>
       <%=submit_tag "my team",:class=>'btn btn-primary submit_player', :id=>"myteam_"%>
       <%=submit_tag "opponent",:class=>'btn btn-danger submit_player',:id=>"opponent_"%>
     <%end%>
+  </center>
     <div class="tab-content">
       <%["myteam","qb","rb","wr","te","defense"].each do |position| %>
         <div class='<%=position=="myteam" ? "tab-pane active" : "tab-pane"%>' id="<%=position%>">
@@ -14,9 +16,12 @@
             <div class='offset1 span7' style='margin-bottom:10px'>
               <span>
                 <%if @user.drafts.size > 1%>
-                  <%=select_tag(:draft,options_for_select(@user.drafts.collect{|d| [d.name,d.id]}),{:style=>"margin-bottom:0"})%>
-                  <button type='button' class='btn btn-primary' name="load_draft" id='load_draft' style='display:inline;margin-right:20px'>   Load
-                  </button>
+                  <%=form_tag("/index",method: :get,style:'display:inline;margin-right:20px') do%>
+                    <%=select_tag(:draft,options_for_select(@user.drafts.collect{|d| [d.name,d.id]},@curr_draft.id),{:style=>"margin-bottom:0"})%>
+                    <%=hidden_field_tag :league_id,@user.league_id%>
+                    <%=hidden_field_tag :access_token,@user.access_token%>
+                    <%=submit_tag "Load",{:class=>'btn btn-primary'}%>
+                  <%end%>
                 <%end%>
                 <%=link_to "Create New Draft",{:action=>'clear_roster'},:class=>'btn btn-danger',:confirm=>"This will save your current draft and create new one"%>
               </span>

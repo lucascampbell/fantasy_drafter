@@ -8,6 +8,7 @@ FantasyTracker::Application.routes.draw do
 
   get 'taken' => "draft#taken"
   get 'clear_roster' => "draft#clear_roster"
+  get 'index' => "draft#index"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
