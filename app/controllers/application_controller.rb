@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
     session[:access_token]  = params[:access_token] || "testtoken" unless session[:access_token]
     @user                   = User.find_by_league_id(session[:league_id])
     unless @user
-      @user = User.new(:email => "lucas.campbellrossen@gmail.com", :password => session[:league_id], :password_confirmation => session[:league_id],:league_id=>session[:league_id],:access_token=>session[:access_token])
+      @user = User.new(:email => "#{session[:league_id]}@gmail.com", :password => session[:league_id], :password_confirmation => session[:league_id],:league_id=>session[:league_id],:access_token=>session[:access_token])
       @user.save!
       sign_in @user, :bypass => true 
     else

@@ -1,5 +1,5 @@
 class DraftController < ApplicationController
-  before_filter :get_user, :except=>:taken
+  before_filter :get_user, :except=> :taken
 
   def index
     @curr_draft = @user.drafts.find(session[:draft_id])
