@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
     else
       @user.update_attribute("access_token",access_token)
     end
-    session[:draft_id] = Draft.find(params[:draft]) if params[:draft]
+    session[:draft_id] = Draft.find(params[:draft]).id if params[:draft]
     session[:draft_id] = Draft.create!({:name=>"#{Draft.count + 1}_#{Time.now.to_i}",:user_id=>@user.id}).id if session[:draft_id].nil?
   end
 end

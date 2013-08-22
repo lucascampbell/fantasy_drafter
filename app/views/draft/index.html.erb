@@ -35,9 +35,9 @@
               <td>fvalue</td>
               <td>adp</td>
             </tr>
-            <%players = position == "myteam" ? @curr_draft.players : @players%>
-            <% players.where("position= :position",{:position=>position}).order("fpts DESC").each do |player| %>
-              <tr id='<%=position == "myteam" ? "" : player.name.gsub(/\s+/, "").gsub(".","").gsub("'","")%>' class="<%=position == 'myteam' ? '' : player.status.blank? ? '' : player.status == 'opponent' ? 'grey_out_opponent' : 'grey_out_myteam' %>">
+            <%players = position == "myteam" ? @curr_draft.players : @players.where("position= :position",{:position=>position})%>
+            <% players.order("fpts DESC").each do |player| %>
+              <tr id='<%=position == "myteam" ? "" : player.name.gsub(/\s+/, "").gsub(".","").gsub("'","")%>'>
                 <td><%=player.name%></td>
                 <td><%=player.team%></td>
                 <td><%=player.fpts.to_f.round(2)%></td>
