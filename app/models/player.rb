@@ -4,13 +4,9 @@ class Player < ActiveRecord::Base
   has_many :drafts, :through=> :draft_players
 
   def self.load_data
-    all_player_url = "http://api.cbssports.com/fantasy/players/rankings?version=2.0
-      &access_token=#{User.first.access_token}
-      &response_format=JSON"
+    all_player_url = %Q(http://api.cbssports.com/fantasy/players/rankings?version=2.0&access_token=#{User.first.access_token}&response_format=JSON)
 
-    fantasy_points_url = "http://api.cbssports.com/fantasy/league/fantasy-points?version=2.0
-      &response_format=JSON&period=projections&timeframe=2013&
-      access_token=#{User.first.access_token}"
+    fantasy_points_url = %Q(http://api.cbssports.com/fantasy/league/fantasy-points?version=2.0&response_format=JSON&period=projections&timeframe=2013&access_token=#{User.first.access_token})
 
     resp                 = RestClient.get all_player_url
     r                    = JSON.parse(resp.body)
@@ -22,6 +18,7 @@ class Player < ActiveRecord::Base
 
 
     player_rankings_hash.each do |position|
+    	puts "position is #{position}"
       next if position['abbr'] == "K"
       case position["abbr"]
       when 'RB'
@@ -48,7 +45,7 @@ class Player < ActiveRecord::Base
           player.update_attributes({:position=>position["abbr"],:team=>player["pro_team"],:fpts=>fantasy_pt_hash[player["id"]],:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
         else
           puts "creating #{player['fullname']} for first time"
-          player = Player.create!({:name=>player['fullname'],:position=>position['abbr'],:team=>player["pro_team"],:fpts=>fantasy_pt_hash[player["id"]],:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
+          player = Player.create!({:uid=>player['id'],:name=>player['fullname'],:position=>position['abbr'],:team=>player["pro_team"],:fpts=>fantasy_pt_hash[player["id"]],:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
         end
       end
     end

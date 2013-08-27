@@ -30,11 +30,6 @@ ActiveRecord::Schema.define(version: 20130823204550) do
     t.datetime "updated_at"
   end
 
-  create_table "drafts_players", force: true do |t|
-    t.integer "draft_id"
-    t.integer "player_id"
-  end
-
   create_table "players", force: true do |t|
     t.string   "name"
     t.string   "status"
