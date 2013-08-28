@@ -13,6 +13,7 @@ class ApplicationController < ActionController::Base
 
   def get_user
     #session[:league_id] = nil
+    reset_session
     redirect_to(new_user_session_path) and return unless params[:league_id] or session[:league_id] or user_signed_in?
     unless user_signed_in?
       session[:league_id]     = params[:league_id] unless session[:league_id]
