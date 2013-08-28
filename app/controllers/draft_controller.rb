@@ -16,7 +16,7 @@ class DraftController < ApplicationController
   end
 
   def clear_roster
-    session[:draft_id]=nil
+    reset_session
     redirect_to :action=>:index
   end
 
