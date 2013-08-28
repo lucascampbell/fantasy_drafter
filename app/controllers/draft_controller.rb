@@ -20,7 +20,11 @@ class DraftController < ApplicationController
   end
 
   def clear_roster
+    league_id    = session[:league_id]
+    access_token = session[:access_token]
     reset_session
+    session[:league_id]    = league_id
+    session[:access_token] = access_token
     redirect_to :action=>:index
   end
 
