@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
       unless user
         user = User.new(:email => "#{session[:league_id]}@gmail.com", :password => session[:league_id], :password_confirmation => session[:league_id],:league_id=>session[:league_id],:access_token=>session[:access_token])
         user.save!
-        sign_in user, :bypass => true 
+        sign_in(:user,user) 
       else
         user.update_attribute("access_token",session[:access_token])
       end
