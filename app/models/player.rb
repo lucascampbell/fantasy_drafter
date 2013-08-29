@@ -51,7 +51,7 @@ class Player < ActiveRecord::Base
  
         if p
           puts "player #{player['fullname']} already in system update will occur"
-          player.update_attributes({:position=>position["abbr"],:team=>player["pro_team"],:fpts=>fantasy_pt_hash[player["id"]],:adp=>adp,:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
+          p.update_attributes({:position=>position["abbr"],:team=>player["pro_team"],:fpts=>fantasy_pt_hash[player["id"]],:adp=>adp,:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
         else
           puts "creating #{player['fullname']} for first time"
           p = Player.create!({:uid=>player['id'],:name=>player['fullname'],:position=>position['abbr'],:team=>player["pro_team"],:adp=>adp,:fpts=>fantasy_pt_hash[player["id"]],:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
