@@ -6,7 +6,7 @@ class Player < ActiveRecord::Base
   def self.load_data
     all_player_url = "http://api.cbssports.com/fantasy/players/rankings?version=3.0&access_token=#{User.first.access_token}&response_format=JSON"
 
-    fantasy_points_url = "http://api.cbssports.com/fantasy/league/fantasy-points?version=3.0&response_format=JSON&period=projections&timeframe=2013&access_token=#{User.first.access_token}"
+    fantasy_points_url = "http://api.cbssports.com/fantasy/league/fantasy-points?version=3.0&response_format=JSON&period=projections&timeframe=2014&access_token=#{User.first.access_token}"
 
     adp_url              = "http://api.cbssports.com/fantasy/players/average-draft-position?version=3.0&access_token=#{User.first.access_token}&response_format=JSON"
 
