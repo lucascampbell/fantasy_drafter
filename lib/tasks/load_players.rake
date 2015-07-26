@@ -64,7 +64,7 @@ namespace :load_data do
   end
 
   task :adp => :environment do 
-    si   = open("http://fantasyfootballcalculator.com/adp_csv_ppr.php?teams=10")
+    si   = open("https://fantasyfootballcalculator.com/adp_xml.php?format=ppr&teams=10")           
     csv  = CSV.parse(si.read)
 
     5.times do
