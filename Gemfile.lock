@@ -176,6 +176,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   less-rails
+  nokogiri
   pg
   rails (= 4.0.0)
   rails_12factor

@@ -2,8 +2,12 @@ class DraftController < ApplicationController
   before_filter :get_user, :only=> :index
   
   def index
-    @curr_draft = current_user.drafts.find_by_id(session[:draft_id])
-    @players    = @curr_draft.players.count > 0 ? Player.where("id not in (?)",@curr_draft.players.collect(&:id)) : Player.all
+    begin
+      @curr_draft = current_user.drafts.find_by_id(session[:draft_id])
+      @players    = @curr_draft.players.count > 0 ? Player.where("id not in (?)",@curr_draft.players.collect(&:id)) : Player.all
+    rescue Exception => e
+      reset_session
+    end
   end
   
   def taken
@@ -16,7 +20,11 @@ class DraftController < ApplicationController
   end
 
   def clear_roster
-    session[:draft_id]=nil
+    league_id    = session[:league_id]
+    access_token = session[:access_token]
+    reset_session
+    session[:league_id]    = league_id
+    session[:access_token] = access_token
     redirect_to :action=>:index
   end
 
