@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You will need to get your access_token from cbs site so you can access the cbs api.  Go to developer.cbssports.com to get this.
 
-Things you may want to cover:
+load a rails console and run Player.load_data.  This loads the players and rankings from cbs.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Next you will run the rake task adp to get the average draft poistion numbers from http://fantasyfootballcalculator.com.  This will update your player in the db.
