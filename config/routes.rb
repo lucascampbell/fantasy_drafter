@@ -1,4 +1,5 @@
 FantasyTracker::Application.routes.draw do
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -7,6 +8,7 @@ FantasyTracker::Application.routes.draw do
 
   get 'taken' => "draft#taken"
   get 'clear_roster' => "draft#clear_roster"
+  get 'index' => "draft#index"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

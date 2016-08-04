@@ -1,21 +1,33 @@
-<div class='span12' style="margin-top:100px">
+<div class='span12' style='margin-top:5%'>
+  <center>
     <%=form_tag('taken') do%>
       <input id='player' name='player' type="text" class='input-large' style='margin-bottom:0'>
       <%=submit_tag "my team",:class=>'btn btn-primary submit_player', :id=>"myteam_"%>
       <%=submit_tag "opponent",:class=>'btn btn-danger submit_player',:id=>"opponent_"%>
     <%end%>
+  </center>
     <div class="tab-content">
-      <%["myteam","qb","rb","wr","te","defense"].each do |position| %>
-        <div class="<%=position  == 'myteam' ? 'tab-pane active' : 'tab-pane' %>" id="<%=position%>">
+      <%["myteam","QB","RB","WR","TE","DST"].each do |position| %>
+        <div class='<%=position=="myteam" ? "tab-pane active" : "tab-pane"%>' id="<%=position%>">
           <div class='<%=position == "myteam" ? "span3" : ""%>'>
-            <h2><%=full_postion_name(position)%></h2>
+            <h4><%=full_postion_name(position)%></h4>
           </div>
           <%if position == 'myteam'%>
-            <div class='offset7 span2'
-              <span><%=link_to "Clear Roster",{:action=>'clear_roster'},:class=>'btn btn-danger'%></span>
+            <div class='offset1 span7' style='margin-bottom:10px'>
+              <span>
+                <%if current_user.drafts.size > 1%>
+                  <%=form_tag("/index",method: :get,style:'display:inline;margin-right:20px') do%>
+                    <%=select_tag(:draft,options_for_select(current_user.drafts.collect{|d| [d.name,d.id]},@curr_draft.id),{:style=>"margin-bottom:0"})%>
+                    <%=hidden_field_tag :league_id,current_user.league_id%>
+                    <%=hidden_field_tag :access_token,current_user.access_token%>
+                    <%=submit_tag "Load",{:class=>'btn btn-primary'}%>
+                  <%end%>
+                <%end%>
+                <%=link_to "Create New Draft",{:action=>'clear_roster'},:class=>'btn btn-danger',:confirm=>"This will save your current draft and create new one"%>
+              </span>
             </div>
           <%end%> 
-          <table class='table table-striped table-bordered' id="table_<%=position%>">
+          <table class='table table-striped table-bordered' id="table_<%=position%>" style='margin-top:10px'>
             <tr>
               <td>name</td>
               <td>team</td>
@@ -23,8 +35,9 @@
               <td>fvalue</td>
               <td>adp</td>
             </tr>
-            <% @players.where("position= :position or status = :position",{:position=>position}).order("fpts DESC").each do |player| %>
-              <tr id='<%=position == "myteam" ? "" : player.name.gsub(/\s+/, "").gsub(".","").gsub("'","")%>' class="<%=position == 'myteam' ? '' : player.status.blank? ? '' : player.status == 'opponent' ? 'grey_out_opponent' : 'grey_out_myteam' %>">
+            <%players = position == "myteam" ? @curr_draft.players : @players.where("position= :position",{:position=>position})%>
+            <% players.order("fpts DESC").each do |player| %>
+              <tr id='<%=position == "myteam" ? "" : player.name.gsub(/\s+/, "").gsub(".","").gsub("'","")%>'>
                 <td><%=player.name%></td>
                 <td><%=player.team%></td>
                 <td><%=player.fpts.to_f.round(2)%></td>
@@ -44,5 +57,6 @@ $(function() {
     $("#player").autocomplete({
       source: availableTags
     });
+    $(".notice").fadeOut(3000);
   })
 </script>
