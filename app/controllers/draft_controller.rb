@@ -3,7 +3,7 @@ class DraftController < ApplicationController
   
   def index
     begin
-      @curr_draft = current_user.drafts.find_by_id(session[:draft_id])
+      @curr_draft = current_user.drafts.find_by_id(params[:id]) || current_user.drafts.first
       @players    = @curr_draft.players.count > 0 ? Player.where("id not in (?)",@curr_draft.players.collect(&:id)) : Player.all
     rescue Exception => e
       reset_session
@@ -11,9 +11,9 @@ class DraftController < ApplicationController
   end
   
   def taken
-    name = params[:name]
+    id     = params[:id]
     status = params[:status]
-    player = Player.find_by_name(name)
+    player = Player.find(id)
     DraftPlayer.create!({:player_id=>player.id,:draft_id=>session[:draft_id],:status=>status})
     pstring = "<tr><td>#{player.name}</td><td>#{player.team}</td><td>#{player.fpts}</td><td>#{player.fvalue.round(2)}</td><td>#{player.adp}</td></tr>"
     render :json => {:text =>"success",:pstring=>pstring}
