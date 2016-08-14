@@ -36,7 +36,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-gem 'asset_sync'
+#gem 'asset_sync'
 group :assets do
   # Use SCSS for stylesheets
 	gem 'sass-rails', '~> 4.0.0'
