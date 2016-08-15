@@ -19,8 +19,9 @@ class Player < ActiveRecord::Base
       raw_name = stat_td[1].text.split(" ")
       puts "raw name is #{raw_name}"
       name     = raw_name[0..1].join(" ").strip
+      team     = raw_name[2].strip if raw_name[2]
 
-      player = Player.where(name:name).take
+      player = Player.where(name:name).where(team:team).take
       if player
         puts "player #{player.name} already in system update will occur"
         player.update_attributes({adp:stat_td[8].text.to_f})
@@ -65,7 +66,7 @@ class Player < ActiveRecord::Base
         name     = raw_name[0..1].join(" ").strip
         team     = raw_name[2].strip if raw_name[2]
         puts "process #{name} on team #{team}"
-        player = Player.where(name:name).take
+        player = Player.where(name:name).where(team:team).take
         if player
           puts "player #{player.name} already in system update will occur"
           player.update_attributes!({:position=>position,:team=>team,:fpts=>stat_td[fpt_index].text.to_f,:fvalue =>(stat_td[fpt_index].text.to_f - base_line_player[fpt_index].text.to_f)})
