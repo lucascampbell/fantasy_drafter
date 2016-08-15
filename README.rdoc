@@ -2,6 +2,7 @@
 
 You have been scraping fantasy pros site for players, use link below and replace "te" with position.
 https://www.fantasypros.com/nfl/projections/te.php?scoring=PPR
+https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php
 
 load a rails console and run Player.load_data.  This loads the players and rankings from fantasy pros
 

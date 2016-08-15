@@ -5,11 +5,38 @@ class Player < ActiveRecord::Base
 
   POSITION_LIST = ['wr','rb','qb','te']
 
+  def self.load_adp
+    url_adp = "https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php"
+    page = Nokogiri::HTML(RestClient.get(url_adp))
+    outer_div  = page.xpath("//div[contains(@class,'mobile-table')]").first
+    table_body = outer_div.xpath(".//tbody").first
+    player_trs = table_body.xpath(".//tr[contains(@class,'mpb-available')]")
+
+    #puts "found row #{player_trs}"
+    player_trs.each do |row|
+      stat_td  = row.xpath(".//td")
+      puts "td is #{stat_td}"
+      raw_name = stat_td[1].text.split(" ")
+      puts "raw name is #{raw_name}"
+      name     = raw_name[0..1].join(" ").strip
+
+      player = Player.where(name:name).take
+      if player
+        puts "player #{player.name} already in system update will occur"
+        player.update_attributes({adp:stat_td[8].text.to_f})
+      else
+        logger.debug ("cant find player #{name}")
+      end
+    end
+
+  end
+
   def self.load_fp_data
     POSITION_LIST.each do |position|
       puts "looping #{position}"
-      url = "https://www.fantasypros.com/nfl/projections/#{position}.php?scoring=PPR"
-      page = Nokogiri::HTML(RestClient.get(url))
+
+      url_proj = "https://www.fantasypros.com/nfl/projections/#{position}.php?scoring=PPR"
+      page = Nokogiri::HTML(RestClient.get(url_proj))
       outer_div  = page.xpath("//div[contains(@class,'mobile-table')]").first
       table_body = outer_div.xpath(".//tbody").first
       player_trs = table_body.xpath(".//tr")
@@ -41,15 +68,15 @@ class Player < ActiveRecord::Base
         player = Player.where(name:name).take
         if player
           puts "player #{player.name} already in system update will occur"
-          player.update_attributes({:position=>position,:team=>team,:fpts=>stat_td[fpt_index].text.to_f,:fvalue =>(stat_td[fpt_index].text.to_f - base_line_player[fpt_index].text.to_f)})
+          player.update_attributes!({:position=>position,:team=>team,:fpts=>stat_td[fpt_index].text.to_f,:fvalue =>(stat_td[fpt_index].text.to_f - base_line_player[fpt_index].text.to_f)})
         else
           puts "creating #{name} for first time"
           Player.create!({:name=>name,:position=>position,:team=>team,:fpts=>stat_td[fpt_index].text.to_f,:fvalue =>(stat_td[fpt_index].text.to_f - base_line_player[fpt_index].text.to_f)})
         end
       end
     end
-    
-    
+
+
   end
   # def self.load_data
   #   all_player_url = "http://api.cbssports.com/fantasy/players/rankings?version=3.0&access_token=#{User.first.access_token}&response_format=JSON"
@@ -96,7 +123,7 @@ class Player < ActiveRecord::Base
   #       p       = Player.find_by_uid(player["id"])
   #       adp_raw = adp_hash.select{|plyr|plyr["id"] == player["id"]}
   #       adp     = adp_raw.first["avg"] unless adp_raw.empty?
- 
+
   #       if p
   #         puts "player #{player['fullname']} already in system update will occur"
   #         p.update_attributes({:position=>position["abbr"],:team=>player["pro_team"],:fpts=>fantasy_pt_hash[player["id"]],:adp=>adp,:fvalue =>(fantasy_pt_hash[player["id"]].to_f - base_line.to_f)})
