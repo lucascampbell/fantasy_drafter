@@ -26,12 +26,10 @@ class DraftController < ApplicationController
   end
 
   def clear_roster
-    league_id    = session[:league_id]
-    access_token = session[:access_token]
-    reset_session
-    session[:league_id]    = league_id
-    session[:access_token] = access_token
-    redirect_to :action=>:index
+    new_draft = Draft.create!({:name=>"#{Draft.count + 1}_#{Time.now.to_i}",:user_id=>current_user.id})
+    current_user.drafts << new_draft
+    session[:draft_id] = new_draft.id
+    redirect_to :action=>:index, draft: session[:draft_id]
   end
 
 end
