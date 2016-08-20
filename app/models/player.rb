@@ -10,7 +10,7 @@ class Player < ActiveRecord::Base
     page = Nokogiri::HTML(RestClient.get(url_adp))
     outer_div  = page.xpath("//div[contains(@class,'mobile-table')]").first
     table_body = outer_div.xpath(".//tbody").first
-    player_trs = table_body.xpath(".//tr[contains(@class,'mpb-available')]")
+    player_trs = table_body.xpath(".//tr[contains(@class,'mpb-player')]")
 
     #puts "found row #{player_trs}"
     player_trs.each do |row|
