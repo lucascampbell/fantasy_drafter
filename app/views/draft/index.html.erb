@@ -15,11 +15,16 @@
           <%if position == 'myteam'%>
             <div class='offset1 span7' style='margin-bottom:10px'>
               <span>
-                
+                <%if current_user.drafts.count > 1%>		 +
+                  <%=form_tag("/index",method: :get,style:'display:inline;margin-right:20px') do%>
+                   <%=select_tag(:draft,options_for_select(current_user.drafts.collect{|d| [d.name,d.id]},@curr_draft.id),{:style=>"margin-bottom:0"})%>
+                   <%=submit_tag "Load",{:class=>'btn btn-primary'}%>
+                  <%end%>
+                <%end%>
                 <%=link_to "Create New Draft",{:action=>'clear_roster'},:class=>'btn btn-danger',:confirm=>"This will save your current draft and create new one"%>
               </span>
             </div>
-          <%end%> 
+          <%end%>
           <table class='table table-striped table-bordered' id="table_<%=position%>" style='margin-top:10px'>
             <tr>
               <td>name</td>

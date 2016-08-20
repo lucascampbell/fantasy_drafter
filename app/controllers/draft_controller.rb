@@ -1,15 +1,21 @@
 class DraftController < ApplicationController
   before_filter :get_user, :only=> :index
-  
+
   def index
     begin
-      @curr_draft = current_user.drafts.find_by_id(params[:id]) || current_user.drafts.first
+      if params[:draft]
+        session[:draft_id] = params[:draft]
+        @curr_draft = current_user.drafts.find_by_id(params[:draft])
+      else
+        @curr_draft = current_user.drafts.first
+        session[:draft_id] = @curr_draft.id
+      end
       @players    = @curr_draft.players.count > 0 ? Player.where("id not in (?)",@curr_draft.players.collect(&:id)) : Player.all
     rescue Exception => e
       reset_session
     end
   end
-  
+
   def taken
     id     = params[:id]
     status = params[:status]
