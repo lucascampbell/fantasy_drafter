@@ -1,27 +1,21 @@
 <div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
+  <div class="navbar-inner" style='padding:0'>
       <div class="container">
-        <div class='brand pull-left'>
-            <%= image_tag "logo.png",{:width=>'30px',:height=>'20px'}%>
-          Fantasy Tracker
-          <span id='timer' style="padding:10px;margin-right:20px;font-size:36px">00</span>
-          <span><a id='timerbtn' class='btn btn-info' style='margin-top:0'>start</a></span>
-          <span>
-            <select id='count' style='width:100px;margin-bottom:0'> 
-              <option>60</option>
-              <option>120</option>
-              <option>300</option>
-            </select>
-          </span>
+        <div class='brand pull-left' style='padding-top:20px'>
+            <%#= image_tag "logo.png",{:width=>'30px',:height=>'20px'}%>
+          Live Draft Tool
       </div>
-    </ul>
       <ul class='nav nav-tabs pull-right'>
         <li class='<%=@tab.nil? ? "active" : ""%>'><a href='#myteam' data-toggle="tab" style="padding:20px">Team</a></li>
-        <li class='<%=@tab == 'qb' ? "active" : ""%>'><a href='#qb' data-toggle="tab" style="padding:20px">QBs</a></li>
-        <li class='<%=@tab == 'rb' ? "active" : ""%>'><a href='#rb' data-toggle="tab" style="padding:20px">RBs</a></li>
-        <li class='<%=@tab == 'wr' ? "active" : ""%>'><a href='#wr' data-toggle="tab" style="padding:20px">WRs</a></li>
-        <li class='<%=@tab == 'te' ? "active" : ""%>'><a href='#te' data-toggle="tab" style="padding:20px">TEs</a></li>
-        <li class='<%=@tab == 'def' ? "active" : ""%>'><a href='#defense' data-toggle="tab" style="padding:20px">DEF</a></li>
+        <li class='<%=@tab == 'QB' ? "active" : ""%>'><a href='#QB' data-toggle="tab" style="padding:20px">QBs</a></li>
+        <li class='<%=@tab == 'RB' ? "active" : ""%>'><a href='#RB' data-toggle="tab" style="padding:20px">RBs</a></li>
+        <li class='<%=@tab == 'WR' ? "active" : ""%>'><a href='#WR' data-toggle="tab" style="padding:20px">WRs</a></li>
+        <li class='<%=@tab == 'TE' ? "active" : ""%>'><a href='#TE' data-toggle="tab" style="padding:20px">TEs</a></li>
+        <li class='<%=@tab == 'DST' ? "active" : ""%>'><a href='#DST' data-toggle="tab" style="padding:20px">DEFENSE</a></li>
+        <li class='<%=@tab == 'K' ? "active" : ""%>'><a href='#K' data-toggle="tab" style="padding:20px">Kicker</a></li>
+        <%if user_signed_in? and !session[:league_id]%>
+          <li><%=link_to "Logout",destroy_user_session_path, :method => :delete,:style=>"padding:20px"%></li>
+        <%end%>
       </ul>
     </div>
   </div>

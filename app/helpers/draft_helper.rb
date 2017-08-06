@@ -2,18 +2,18 @@ module DraftHelper
 
   def full_postion_name(position)
     case position
-    when 'qb'
+    when 'QB'
       "Quarterbacks"
-    when 'rb'
+    when 'RB'
       "Running Backs"
-    when 'wr'
+    when 'WR'
       "Wide Receivers"
-    when 'te'
+    when 'TE'
       "Tight Ends"
-    when 'defense'
+    when 'DST'
       "Defenses"
     when 'myteam'
-      "My Team"
+      "Draft #{Draft.first.name}"
     end
   end
 end
