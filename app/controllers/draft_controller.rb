@@ -1,5 +1,4 @@
 class DraftController < ApplicationController
-  before_filter :get_user, :only=> :index
 
   def index
     begin
