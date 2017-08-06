@@ -11,7 +11,8 @@
         <li class='<%=@tab == 'RB' ? "active" : ""%>'><a href='#RB' data-toggle="tab" style="padding:20px">RBs</a></li>
         <li class='<%=@tab == 'WR' ? "active" : ""%>'><a href='#WR' data-toggle="tab" style="padding:20px">WRs</a></li>
         <li class='<%=@tab == 'TE' ? "active" : ""%>'><a href='#TE' data-toggle="tab" style="padding:20px">TEs</a></li>
-        <li class='<%=@tab == 'DST' ? "active" : ""%>'><a href='#DEFENSE' data-toggle="tab" style="padding:20px">DEFENSE</a></li>
+        <li class='<%=@tab == 'DST' ? "active" : ""%>'><a href='#DST' data-toggle="tab" style="padding:20px">DEFENSE</a></li>
+        <li class='<%=@tab == 'K' ? "active" : ""%>'><a href='#K' data-toggle="tab" style="padding:20px">Kicker</a></li>
         <%if user_signed_in? and !session[:league_id]%>
           <li><%=link_to "Logout",destroy_user_session_path, :method => :delete,:style=>"padding:20px"%></li>
         <%end%>
