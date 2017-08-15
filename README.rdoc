@@ -7,3 +7,7 @@ https://www.fantasypros.com/nfl/rankings/ppr-cheatsheets.php
 load a rails console and run Player.load_data.  This loads the players and rankings from fantasy pros
 
 cbs fantasy writer dave richard has good info
+
+
+http://apps.fantasyfootballanalytics.net/projections/
+use this site but input settings of league so players projections will adjust correctly
