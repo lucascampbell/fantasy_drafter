@@ -10,7 +10,7 @@ module DraftHelper
       "Wide Receivers"
     when 'TE'
       "Tight Ends"
-    when 'DST'
+    when 'D'
       "Defenses"
     when 'myteam'
       "Draft #{Draft.first.name}"

@@ -7,7 +7,7 @@
     <%end%>
   </center>
     <div class="tab-content">
-      <%["myteam","QB","RB","WR","TE","DST",'K'].each do |position| %>
+      <%["myteam","QB","RB","WR","TE","D"].each do |position| %>
         <div class='<%=position=="myteam" ? "tab-pane active" : "tab-pane"%>' id="<%=position%>">
           <div class='<%=position == "myteam" ? "span3" : ""%>'>
             <h4><%=full_postion_name(position)%></h4>

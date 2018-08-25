@@ -11,3 +11,5 @@ cbs fantasy writer dave richard has good info
 
 http://apps.fantasyfootballanalytics.net/projections/
 use this site but input settings of league so players projections will adjust correctly
+
+2018 fantasy guru projections used Player.load_fg, set keepers so they are processed
