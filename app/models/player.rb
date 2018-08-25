@@ -19,7 +19,7 @@ class Player < ActiveRecord::Base
       path = File.join(Rails.root,"public/fg/#{position}.json")
       file = File.open(path)
       data = JSON.parse(file.read)
-      data = data.delete_if{|row| KEEPER_LIST[position.to_sym].include? row["player_name"].downcase }
+      #data = data.delete_if{|row| KEEPER_LIST[position.to_sym].include? row["player_name"].downcase }
       case position
       when 'rb'
         base_line_player = data[35]
