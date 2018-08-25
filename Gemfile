@@ -18,7 +18,7 @@ gem 'jbuilder', '~> 1.2'
 
 # extra gems
 gem 'twitter-bootstrap-rails'
-gem 'less-rails'
+gem "less-rails", "~> 2.8.0"
 gem 'therubyracer'
 gem 'devise'
 gem 'rest-client'
