@@ -31,7 +31,7 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-gem 'pg'
+gem 'pg', '~> 0.21'
 gem 'rails_12factor'
 
 #gem 'asset_sync'
