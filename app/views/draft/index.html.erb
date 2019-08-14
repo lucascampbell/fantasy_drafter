@@ -7,7 +7,7 @@
     <%end%>
   </center>
     <div class="tab-content">
-      <%["myteam","QB","RB","WR","TE","D"].each do |position| %>
+      <%["myteam","QB","RB","WR","TE","DEF"].each do |position| %>
         <div class='<%=position=="myteam" ? "tab-pane active" : "tab-pane"%>' id="<%=position%>">
           <div class='<%=position == "myteam" ? "span3" : ""%>'>
             <h4><%=full_postion_name(position)%></h4>
@@ -34,7 +34,7 @@
               <td>adp(pick)</td>
             </tr>
             <% my_player_ids = @curr_draft.draft_players.where(status:"myteam").pluck(:player_id) %>
-            <%players = position == "myteam" ? @curr_draft.players.where(id:my_player_ids) : @players.where(position:position)%>
+            <%players = position == "myteam" ? @curr_draft.players.where(id:my_player_ids) : @players.where(position:position.downcase)%>
             <% players.order("fpts DESC").each do |player| %>
               <tr id='<%=position == "myteam" ? "" : player.name.gsub(/\s+/, "").gsub(".","").gsub("'","")%>'>
                 <td style='display:none;' class=<%=player.name.gsub(" ","")%>><%=player.id%></td>

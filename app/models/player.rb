@@ -1,3 +1,4 @@
+require 'csv'
 class Player < ActiveRecord::Base
   validates :name, uniqueness: {scope: :team}, presence: true
   has_many :draft_players
@@ -6,45 +7,51 @@ class Player < ActiveRecord::Base
   POSITION_LIST = ['wr','rb','qb','te','def']
 
   KEEPER_LIST = {
-                  wr:['davante adams','deandre hopkins','chris hogan','tyreek hill','adam thielen'],
-                  rb:['kareem hunt','joe mixon','derrick henry'],
-                  te:['zach ertz','evan engram'],
+                  wr:['JuJu Smith-Schuster'],
+                  rb:['Derrius Guice','Kerryon Johnson'],
+                  te:['George Kittle'],
                   def:[],
-                  qb:[],
-                  k:[]
+                  qb:['Patrick Mahomes']
                 }
+
+  RB_BASELINE = 47
+  WR_BASELINE = 58
+  QB_BASELINE = 17
+  TE_BASELINE = 14
 
   def self.load_fg
     POSITION_LIST.each do |position|
-      path = File.join(Rails.root,"public/fg/#{position}.json")
-      file = File.open(path)
-      data = JSON.parse(file.read)
-      #data = data.delete_if{|row| KEEPER_LIST[position.to_sym].include? row["player_name"].downcase }
+      path = File.join(Rails.root,"public/fg/#{position}.csv")
+      data = CSV.read(path)
+      data.shift
+      data = data.delete_if{|row| KEEPER_LIST[position.to_sym].include? row[0] }
       case position
       when 'rb'
-        base_line_player = data[35]
+        base_line_player = data[RB_BASELINE]
       when 'wr'
-        base_line_player = data[37]
+        base_line_player = data[WR_BASELINE]
       when 'te'
-        base_line_player = data[10]
+        base_line_player = data[TE_BASELINE]
       when 'qb'
-        base_line_player = data[11]
+        base_line_player = data[QB_BASELINE]
       when 'def'
         base_line_player = data[10]
       end
 
       data.each do |row|
-
-        player = Player.find_or_create_by(uid: row["id"])
+        fpts_column = row.size - 1
+        #player = Player.find_or_create_by(uid: row["id"])
+        player = Player.where(name:row[0]).where(team:row[1]).first_or_create do |player|
+          player.name = row[0],
+          player.team = row[1]
+        end
         hsh = {
-                position: row['player_position'],
-                name:row['player_name'],
-                team:row['team_abbreviation'],
-                adp:row['projection_adp_ppr'],
-                fpts:row['score_total'],
-                fvalue:row['score_total'] - base_line_player['score_total']
+                position: position,
+                name:row[0],
+                team:row[1],
+                fpts:row[fpts_column].to_i,
+                fvalue: (row[fpts_column].to_f - base_line_player[fpts_column].to_f).to_i
               }
-        #print("has to update is #{hsh}")
         player.update_attributes(hsh)
 
       end
@@ -61,16 +68,14 @@ class Player < ActiveRecord::Base
     #puts "found row #{player_trs}"
     player_trs.each do |row|
       stat_td  = row.xpath(".//td")
-      puts "td is #{stat_td}"
-      raw_name = stat_td[1].text.split(" ")
-      puts "raw name is #{raw_name}"
-      name     = raw_name[0..1].join(" ").strip
-      team     = raw_name[2].strip if raw_name[2]
+      name     = stat_td[1].children[0]['data-name']
+      team     = stat_td[1].children[0]['data-team']
 
       player = Player.where(name:name).where(team:team).take
       if player
+        puts "stat_td is #{stat_td}"
         puts "player #{player.name} already in system update will occur"
-        player.update_attributes({adp:stat_td[8].text.to_f})
+        player.update_attributes({adp:stat_td[9].text.to_f})
       else
         logger.debug ("cant find player #{name}")
       end
